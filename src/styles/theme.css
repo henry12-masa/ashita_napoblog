@@ -1,0 +1,50 @@
+/*
+  theme.css -- テーマの上書き。デザイントークンの既定値は tokens.css にある。
+  色は light-dark(<ライト>, <ダーク>) で両モードを指定する。
+*/
+
+/* ---- あしたの習慣: 深い緑(落ち着き・成長)と、朝の光の琥珀色 ---- */
+:root {
+	--color-bg: light-dark(#f7f5f0, #0d0f0e);
+	--color-surface: light-dark(#ffffff, #151917);
+	--color-fill: light-dark(#efece4, #1e2421);
+	--color-fill-strong: light-dark(#e4e0d5, #29302c);
+
+	--color-brand: light-dark(#2f5d50, #8fd1b9);
+	--color-brand-hover: light-dark(#244a3f, #b0e3cf);
+	--color-on-brand: light-dark(#ffffff, #0b1512);
+
+	--color-accent: light-dark(#d98b1f, #f0b04d);
+	--color-accent-soft: light-dark(#fbf1df, #2a2113);
+	--color-accent-ink: light-dark(#8a520a, #f5c77e);
+
+	--font-heading: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP", "Noto Serif CJK JP", serif;
+	--font-weight-heading: 700;
+	--font-weight-display: 700;
+	--tracking-tight: -0.01em;
+	--tracking-snug: 0;
+}
+
+/* テーマ(カテゴリ)ごとの色 */
+[data-theme-cat] {
+	--cat-bg: var(--color-fill);
+	--cat-ink: var(--color-text);
+}
+[data-theme-cat="habits"] { --cat-bg: light-dark(#e3efe9, #16261f); --cat-ink: light-dark(#2f5d50, #8fd1b9); }
+[data-theme-cat="mindset"] { --cat-bg: light-dark(#ece8f4, #1f1b2a); --cat-ink: light-dark(#4f4380, #c3b8f0); }
+[data-theme-cat="time"] { --cat-bg: light-dark(#fbf1df, #2a2113); --cat-ink: light-dark(#8a520a, #f5c77e); }
+[data-theme-cat="learning"] { --cat-bg: light-dark(#e2edf6, #13202b); --cat-ink: light-dark(#255a85, #9cc9ee); }
+[data-theme-cat="career"] { --cat-bg: light-dark(#f4e6e1, #2a1a16); --cat-ink: light-dark(#8c3b25, #f0ab96); }
+[data-theme-cat="relationships"] { --cat-bg: light-dark(#f6e5ec, #2a1720); --cat-ink: light-dark(#8a2f57, #f0a5c6); }
+[data-theme-cat="body"] { --cat-bg: light-dark(#e6f0dc, #1a2414); --cat-ink: light-dark(#4b6b1e, #bfe08f); }
+
+/* 本文は日本語向けに少しゆったり */
+.prose {
+	line-height: 1.95;
+}
+
+/* 日本語の見出しを文節で折り返す(対応ブラウザのみ) */
+h1, h2, h3, .feature__title {
+	word-break: auto-phrase;
+	text-wrap: balance;
+}

@@ -1,0 +1,276 @@
+---
+import { getEmDashCollection, getSiteSettings, getTermsForEntries } from "emdash";
+import Base from "../layouts/Base.astro";
+import PostCard from "../components/PostCard.astro";
+import ActionBox from "../components/ActionBox.astro";
+import { CATEGORIES } from "../../data/taxonomies.mjs";
+import { allBooks } from "../lib/amazon";
+import { resolveBlogSiteIdentity } from "../utils/site-identity";
+
+const [{ entries: posts, cacheHint }, settings] = await Promise.all([
+	getEmDashCollection("posts", { orderBy: { published_at: "desc" }, limit: 100 }),
+	getSiteSettings(),
+]);
+if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+const { siteTitle, siteTagline } = resolveBlogSiteIdentity(settings);
+
+const ids = posts.map((p) => p.data.id);
+const [catsByEntry, tagsByEntry] = await Promise.all([
+	getTermsForEntries("posts", ids, "category"),
+	getTermsForEntries("posts", ids, "tag"),
+]);
+const tagsOf = (p: (typeof posts)[number]) => tagsByEntry.get(p.data.id) ?? [];
+
+// テーマごとの記事数
+const themes = CATEGORIES.map((c) => ({
+	...c,
+	count: posts.filter((p) => (catsByEntry.get(p.data.id) ?? []).some((t) => t.slug === c.slug)).length,
+}));
+
+const latest = posts.slice(0, 6);
+const beginner = posts.filter((p) => tagsOf(p).some((t) => t.slug === "beginner")).slice(0, 4);
+
+// 今日の一歩:日付で記事を1本選ぶ(日本時間で日替わり)
+const withAction = posts.filter((p) => typeof p.data.action === "string" && p.data.action.trim());
+const day = Math.floor((Date.now() + 9 * 3600_000) / 86_400_000);
+const todays = withAction.length ? withAction[day % withAction.length] : null;
+
+const books = allBooks().slice(0, 6);
+---
+
+<Base title={siteTitle} description={siteTagline}>
+	<header class="band intro hero-band">
+		<div class="frame hero">
+			<div class="hero__text">
+				<p class="eyebrow">Self-improvement, one small step</p>
+				<h1 class="intro__title hero__title">
+					あしたの自分は、<br />今日の小さな一歩で<br />変わっていく。
+				</h1>
+				<p class="intro__lead">{siteTagline}</p>
+				<div class="hero__actions">
+					<a href="/posts" class="btn">記事を読む</a>
+					<a href="/themes" class="btn btn--ghost">テーマから探す</a>
+					<a href="/books" class="btn btn--ghost">本棚</a>
+				</div>
+			</div>
+			{
+				todays && (
+					<div class="today">
+						<ActionBox action={todays.data.action as string} />
+						<p class="today__from">
+							この一歩の記事:<a href={`/posts/${todays.id}`}>{todays.data.title}</a>
+						</p>
+					</div>
+				)
+			}
+		</div>
+	</header>
+
+	<section class="band section" aria-labelledby="themes-heading">
+		<div class="frame">
+			<div class="section-head">
+				<h2 id="themes-heading" class="section-head__title">テーマから探す</h2>
+				<a href="/themes" class="arrow-link">テーマ一覧 →</a>
+			</div>
+			<ul class="themes">
+				{
+					themes.map((t) => (
+						<li>
+							<a href={`/category/${t.slug}`} class="theme" data-theme-cat={t.slug}>
+								<span class="theme__name">{t.label}</span>
+								<span class="theme__count">{t.count}本</span>
+								<span class="theme__lead">{t.lead}</span>
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</section>
+
+	{
+		beginner.length > 0 && (
+			<section class="band section" aria-labelledby="beginner-heading">
+				<div class="frame">
+					<div class="section-head">
+						<div>
+							<h2 id="beginner-heading" class="section-head__title">はじめての人へ</h2>
+							<p class="section-head__sub">何から読めばいいか迷ったら、まずはここから。</p>
+						</div>
+						<a href="/tag/beginner" class="arrow-link">もっと見る →</a>
+					</div>
+					<div class="post-grid">
+						{beginner.map((p) => <PostCard post={p} tags={tagsOf(p)} variant="card" headingLevel={3} />)}
+					</div>
+				</div>
+			</section>
+		)
+	}
+
+	<section class="band section" aria-labelledby="latest-heading">
+		<div class="frame">
+			<div class="section-head">
+				<h2 id="latest-heading" class="section-head__title">新しい記事</h2>
+				<a href="/posts" class="arrow-link">すべての記事 →</a>
+			</div>
+			<div class="post-grid">
+				{latest.map((p) => <PostCard post={p} tags={tagsOf(p)} variant="card" headingLevel={3} />)}
+			</div>
+		</div>
+	</section>
+
+	<section class="band section" aria-labelledby="books-heading">
+		<div class="frame">
+			<div class="section-head">
+				<div>
+					<h2 id="books-heading" class="section-head__title">本棚から</h2>
+					<p class="section-head__sub">記事のもとになった本。気になった考え方は、原典で深めてみてください。</p>
+				</div>
+				<a href="/books" class="arrow-link">本棚をすべて見る →</a>
+			</div>
+			<ul class="shelf">
+				{
+					books.map((b) => (
+						<li>
+							<a href={`/books#${b.id}`} class="shelf__book">
+								<span class="shelf__title">{b.title}</span>
+								<span class="shelf__author">{b.author}</span>
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</section>
+</Base>
+
+<style>
+	.hero {
+		display: grid;
+		grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+		align-items: end;
+		gap: var(--spacing-10);
+	}
+
+	.hero__title {
+		max-width: none;
+		line-height: 1.35;
+	}
+
+	.hero__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--spacing-3);
+		margin-top: var(--spacing-6);
+	}
+
+	.today {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-2);
+	}
+
+	.today__from {
+		padding-inline: var(--spacing-2);
+		font-size: var(--font-size-xs);
+		color: var(--color-muted);
+	}
+
+	.today__from a {
+		color: var(--color-text);
+	}
+
+	.section-head__sub {
+		margin-top: var(--spacing-1);
+		font-size: var(--font-size-sm);
+		color: var(--color-text-secondary);
+	}
+
+	.themes {
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+		gap: var(--spacing-3);
+	}
+
+	.theme {
+		display: grid;
+		grid-template-columns: 1fr auto;
+		gap: var(--spacing-2) var(--spacing-3);
+		height: 100%;
+		padding: var(--spacing-5);
+		border-radius: var(--radius-xl);
+		background: var(--cat-bg);
+		color: var(--cat-ink);
+		text-decoration: none;
+		transition: transform var(--transition-fast);
+	}
+
+	.theme:hover {
+		transform: translateY(-2px);
+	}
+
+	.theme__name {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-xl);
+		font-weight: 700;
+	}
+
+	.theme__count {
+		align-self: center;
+		font-family: var(--font-mono);
+		font-size: var(--font-size-sm);
+	}
+
+	.theme__lead {
+		grid-column: 1 / -1;
+		font-size: var(--font-size-sm);
+		line-height: 1.7;
+		color: var(--color-text-secondary);
+	}
+
+	.shelf {
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr));
+		gap: var(--spacing-3);
+	}
+
+	.shelf__book {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: var(--spacing-3);
+		height: 100%;
+		min-height: 9rem;
+		padding: var(--spacing-4) var(--spacing-4) var(--spacing-4) calc(var(--spacing-4) + 8px);
+		border-radius: 4px var(--radius-lg) var(--radius-lg) 4px;
+		background: var(--color-surface);
+		box-shadow: inset 8px 0 0 var(--color-brand), var(--shadow-card);
+		color: inherit;
+		text-decoration: none;
+		transition: box-shadow var(--transition-fast);
+	}
+
+	.shelf__book:hover {
+		box-shadow: inset 8px 0 0 var(--color-accent), var(--shadow-card-hover);
+	}
+
+	.shelf__title {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-sm);
+		font-weight: 700;
+		line-height: 1.6;
+	}
+
+	.shelf__author {
+		font-size: var(--font-size-xs);
+		color: var(--color-muted);
+	}
+
+	@media (max-width: 860px) {
+		.hero {
+			grid-template-columns: minmax(0, 1fr);
+		}
+	}
+</style>

@@ -1,0 +1,30 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "ashita-no-shukan",
+	"main": "./src/worker.ts",
+	"compatibility_date": "2026-02-24",
+	"compatibility_flags": ["nodejs_compat"],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "ashita-no-shukan",
+			"database_id": "c8a8e73f-773b-41af-b8fd-4b8c92277a51",
+		},
+	],
+	"kv_namespaces": [
+		{
+			"binding": "SESSION",
+			"id": "4eb11a3442a2464c860f26c61e368333",
+		},
+	],
+	"r2_buckets": [
+		{
+			"binding": "MEDIA",
+			"bucket_name": "ashita-no-shukan-media",
+		},
+	],
+	"routes": [{ "pattern": "ashita.napoblog.com", "custom_domain": true }],
+	"triggers": {
+		"crons": ["* * * * *"],
+	},
+}

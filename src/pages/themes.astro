@@ -1,0 +1,121 @@
+---
+import { getEmDashCollection, getTermsForEntries } from "emdash";
+import Base from "../layouts/Base.astro";
+import { CATEGORIES } from "../../data/taxonomies.mjs";
+
+const { entries: posts, cacheHint } = await getEmDashCollection("posts", {
+	orderBy: { published_at: "desc" },
+	limit: 300,
+});
+if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+
+const catsByEntry = await getTermsForEntries("posts", posts.map((p) => p.data.id), "category");
+const themes = CATEGORIES.map((c) => ({
+	...c,
+	posts: posts.filter((p) => (catsByEntry.get(p.data.id) ?? []).some((t) => t.slug === c.slug)),
+}));
+---
+
+<Base title="テーマ" description="あしたの習慣の記事をテーマ別に。習慣づくり、考え方とこころ、時間と集中、学びと読書、仕事と生き方、人間関係、からだと睡眠。">
+	<header class="band intro">
+		<div class="frame">
+			<p class="eyebrow">Themes</p>
+			<h1 class="intro__title">テーマから探す</h1>
+			<p class="intro__lead">いま気になっていることに近いテーマから読んでみてください。</p>
+		</div>
+	</header>
+
+	<section class="band section">
+		<div class="frame themes">
+			{
+				themes.map((t) => (
+					<section class="theme" data-theme-cat={t.slug} aria-labelledby={`theme-${t.slug}`}>
+						<a href={`/category/${t.slug}`} class="theme__head">
+							<h2 id={`theme-${t.slug}`} class="theme__name">{t.label}</h2>
+							<span class="theme__count">{t.posts.length}本</span>
+							<p class="theme__lead">{t.lead}</p>
+						</a>
+						<ul class="theme__posts">
+							{t.posts.map((p) => (
+								<li>
+									<a href={`/posts/${p.id}`}>{p.data.title}</a>
+								</li>
+							))}
+						</ul>
+					</section>
+				))
+			}
+		</div>
+	</section>
+</Base>
+
+<style>
+	.themes {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+		gap: var(--spacing-5);
+	}
+
+	.theme {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-4);
+		padding: var(--spacing-3);
+		background: var(--color-surface);
+		border-radius: var(--radius-xl);
+		box-shadow: var(--shadow-card);
+	}
+
+	.theme__head {
+		display: grid;
+		grid-template-columns: 1fr auto;
+		gap: var(--spacing-2) var(--spacing-3);
+		padding: var(--spacing-5);
+		border-radius: var(--radius-lg);
+		background: var(--cat-bg);
+		color: var(--cat-ink);
+		text-decoration: none;
+	}
+
+	.theme__name {
+		margin: 0;
+		font-size: var(--font-size-2xl);
+	}
+
+	.theme__count {
+		align-self: center;
+		font-family: var(--font-mono);
+		font-size: var(--font-size-sm);
+	}
+
+	.theme__lead {
+		grid-column: 1 / -1;
+		font-size: var(--font-size-sm);
+		line-height: 1.7;
+		color: var(--color-text-secondary);
+	}
+
+	.theme__posts {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		padding: 0 var(--spacing-3) var(--spacing-3);
+	}
+
+	.theme__posts li + li {
+		border-top: 1px solid var(--color-border-subtle);
+	}
+
+	.theme__posts a {
+		display: block;
+		padding: var(--spacing-3) 0;
+		font-size: var(--font-size-sm);
+		line-height: 1.6;
+		color: var(--color-text);
+		text-decoration: none;
+	}
+
+	.theme__posts a:hover {
+		color: var(--color-brand);
+	}
+</style>

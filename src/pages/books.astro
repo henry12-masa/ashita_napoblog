@@ -1,0 +1,47 @@
+---
+import { getEmDashCollection } from "emdash";
+import Base from "../layouts/Base.astro";
+import BookList from "../components/BookList.astro";
+import { allBooks, booksFromField } from "../lib/amazon";
+
+const { entries: posts, cacheHint } = await getEmDashCollection("posts", {
+	orderBy: { published_at: "desc" },
+	limit: 300,
+});
+if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+
+// 本ごとに、紹介している記事を集める。記事で紹介している本だけを、紹介の多い順に並べる
+const mentions: Record<string, { slug: string; title: string }[]> = {};
+for (const p of posts) {
+	for (const b of booksFromField(p.data.books)) {
+		(mentions[b.id] ??= []).push({ slug: p.id, title: p.data.title ?? "無題" });
+	}
+}
+const books = allBooks()
+	.filter((b) => mentions[b.id])
+	.sort((a, b) => mentions[b.id].length - mentions[a.id].length);
+---
+
+<Base title="本棚" description="あしたの習慣の記事で紹介している自己啓発書・心理学の本の一覧。習慣、考え方、時間術、学び方、人間関係の名著。">
+	<header class="band intro">
+		<div class="frame">
+			<p class="eyebrow">Bookshelf</p>
+			<h1 class="intro__title">本棚</h1>
+			<p class="intro__lead">
+				記事のもとになった本を{books.length}冊。記事で紹介することの多い順に並べています。気になった考え方は、原典で深めてみてください。
+			</p>
+		</div>
+	</header>
+
+	<section class="band section">
+		<div class="frame shelf-page">
+			<BookList books={books} title="記事で紹介している本" mentions={mentions} />
+		</div>
+	</section>
+</Base>
+
+<style>
+	.shelf-page {
+		max-width: 52rem;
+	}
+</style>

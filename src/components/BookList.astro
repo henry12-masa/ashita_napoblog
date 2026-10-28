@@ -1,0 +1,178 @@
+---
+import type { Book } from "../lib/amazon";
+
+interface Props {
+	books: Book[];
+	title?: string;
+	/** 本棚ページ用:その本を紹介している記事 */
+	mentions?: Record<string, { slug: string; title: string }[]>;
+	headingLevel?: 2 | 3;
+}
+
+const { books, title = "この記事で紹介した本", mentions, headingLevel = 2 } = Astro.props;
+const Heading = `h${headingLevel}` as "h2" | "h3";
+---
+
+{
+	books.length > 0 && (
+		<section class="books" aria-label={title}>
+			{title && (
+				<p class="books__head">
+					<span class="books__pr">PR</span>
+					<span>{title}</span>
+				</p>
+			)}
+			<ul class="books__list">
+				{books.map((book) => (
+					<li class="book" id={mentions ? book.id : undefined}>
+						<div class="book__spine" aria-hidden="true">
+							<span>{[...book.title][0]}</span>
+						</div>
+						<div class="book__body">
+							<Heading class="book__title">『{book.title}』</Heading>
+							<p class="book__author">{book.author}</p>
+							<p class="book__blurb">{book.blurb}</p>
+							{mentions?.[book.id]?.length ? (
+								<p class="book__mentions">
+									紹介している記事:
+									{mentions[book.id].map((m, i) => (
+										<>
+											{i > 0 && "、"}
+											<a href={`/posts/${m.slug}`}>{m.title}</a>
+										</>
+									))}
+								</p>
+							) : null}
+							<a href={book.url} class="book__btn" rel="sponsored noopener" target="_blank">
+								Amazonで見る <span aria-hidden="true">↗</span>
+							</a>
+						</div>
+					</li>
+				))}
+			</ul>
+			<p class="books__note">
+				Amazonの検索結果ページが開きます。価格や在庫、版の違いはリンク先でご確認ください。
+			</p>
+		</section>
+	)
+}
+
+<style>
+	.books {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-4);
+	}
+
+	.books__head {
+		display: flex;
+		align-items: center;
+		gap: var(--spacing-2);
+		font-size: var(--font-size-lg);
+		font-weight: 600;
+	}
+
+	.books__pr {
+		padding: 0 0.4rem;
+		border-radius: var(--radius-sm);
+		background: var(--color-fill);
+		font-family: var(--font-mono);
+		font-size: 0.6875rem;
+		font-weight: 500;
+		letter-spacing: 0.05em;
+		color: var(--color-muted);
+	}
+
+	.books__list {
+		list-style: none;
+		display: grid;
+		gap: var(--spacing-3);
+		padding: 0;
+		margin: 0;
+	}
+
+	.book {
+		display: grid;
+		grid-template-columns: 3.25rem minmax(0, 1fr);
+		gap: var(--spacing-4);
+		padding: var(--spacing-5);
+		background: var(--color-surface);
+		border-radius: var(--radius-xl);
+		box-shadow: inset 0 0 0 1px var(--color-border);
+		scroll-margin-top: calc(var(--header-height, 4rem) + 1rem);
+	}
+
+	.book__spine {
+		display: grid;
+		place-items: center;
+		height: 4.5rem;
+		border-radius: 4px 8px 8px 4px;
+		background: var(--color-brand);
+		box-shadow: inset 5px 0 0 rgb(0 0 0 / 0.18);
+		color: var(--color-on-brand);
+		font-family: var(--font-heading);
+		font-size: var(--font-size-xl);
+		font-weight: 700;
+	}
+
+	.book__body {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: var(--spacing-1);
+	}
+
+	.book__title {
+		margin: 0;
+		font-size: var(--font-size-base);
+		font-weight: 600;
+		line-height: 1.5;
+	}
+
+	.book__author {
+		font-size: var(--font-size-xs);
+		color: var(--color-muted);
+	}
+
+	.book__blurb {
+		margin-top: var(--spacing-1);
+		font-size: var(--font-size-sm);
+		line-height: 1.75;
+		color: var(--color-text-secondary);
+	}
+
+	.book__mentions {
+		font-size: var(--font-size-xs);
+		line-height: 1.7;
+		color: var(--color-muted);
+	}
+
+	.book__mentions a {
+		color: var(--color-text);
+	}
+
+	.book__btn {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--spacing-2);
+		margin-top: var(--spacing-2);
+		min-height: 2.25rem;
+		padding: var(--spacing-1) var(--spacing-4);
+		border-radius: var(--radius-full);
+		background: var(--color-brand);
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+		color: var(--color-on-brand);
+		text-decoration: none;
+		transition: background var(--transition-fast);
+	}
+
+	.book__btn:hover {
+		background: var(--color-brand-hover);
+	}
+
+	.books__note {
+		font-size: var(--font-size-xs);
+		color: var(--color-muted);
+	}
+</style>
