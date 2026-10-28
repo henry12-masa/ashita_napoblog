@@ -3,8 +3,10 @@ import { doc, postTitles, resolveLinks } from "./doc.mjs";
 import habits from "./posts-habits.mjs";
 import mind from "./posts-mind.mjs";
 import growth from "./posts-growth.mjs";
+import more1 from "./posts-more1.mjs";
+import more2 from "./posts-more2.mjs";
 
-export const posts = [...habits, ...mind, ...growth].sort((a, b) => a.date.localeCompare(b.date));
+export const posts = [...habits, ...mind, ...growth, ...more1, ...more2].sort((a, b) => a.date.localeCompare(b.date));
 for (const p of posts) postTitles.set(p.slug, p.title);
 for (const p of posts) resolveLinks(p.content);
 

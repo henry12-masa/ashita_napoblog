@@ -15130,15 +15130,14 @@
 						"classic"
 					]
 				}
-			}
-		],
-		"pages": [
+			},
 			{
-				"id": "page-about",
-				"slug": "about",
+				"id": "post-procrastination",
+				"slug": "procrastination",
 				"status": "published",
 				"data": {
-					"title": "このサイトについて",
+					"title": "先延ばしは「怠け」ではない。気持ちの問題として向き合う",
+					"excerpt": "やらなきゃいけないのに、つい後回しにしてしまう。先延ばしの研究からわかってきた本当の原因と、今日から使える対処法をまとめました。",
 					"content": [
 						{
 							"_type": "block",
@@ -15149,7 +15148,7 @@
 								{
 									"_type": "span",
 									"_key": "k1j8",
-									"text": "「あしたの習慣」は、自己啓発に特化したブログです。習慣づくり、考え方、時間の使い方、学び方、人間関係、睡眠や運動まで、昨日より少し楽に、少し前向きに過ごすためのヒントを紹介しています。",
+									"text": "締め切りが近いのに、なぜか部屋の掃除を始めてしまう。大事なメールの返信を、明日、また明日と延ばしてしまう。先延ばしは、多くの人が悩んでいることの1つです。",
 									"marks": []
 								}
 							]
@@ -15157,57 +15156,55 @@
 						{
 							"_type": "block",
 							"_key": "k1j9",
-							"style": "h2",
+							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
 									"_key": "k1ja",
-									"text": "大切にしていること",
+									"text": "先延ばしをすると、「自分はだらしない」「時間の使い方が下手だ」と責めたくなります。でも、心理学の研究では、先延ばしの多くは時間の管理の問題というより、",
 									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "k1jb",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
+								},
+								{
+									"_type": "span",
+									"_key": "k1jb",
+									"text": "気持ちの問題",
+									"marks": [
+										"strong"
+									]
+								},
 								{
 									"_type": "span",
 									"_key": "k1jc",
-									"text": "根拠のあることを書く。",
-									"marks": [
-										"strong"
-									]
-								},
-								{
-									"_type": "span",
-									"_key": "k1jd",
-									"text": "心理学などの研究や、長く読み継がれている名著をもとに書いています。研究の結果が分かれていることや、効果が小さいとわかってきたことは、そのまま書きます。",
+									"text": "だと考えられるようになってきました。",
 									"marks": []
 								}
 							]
 						},
 						{
 							"_type": "block",
-							"_key": "k1je",
+							"_key": "k1jd",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1je",
+									"text": "先延ばしは「嫌な気分」から逃げること",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1jf",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k1jf",
-									"text": "すぐに試せる形にする。",
-									"marks": [
-										"strong"
-									]
-								},
-								{
-									"_type": "span",
 									"_key": "k1jg",
-									"text": "どの記事も、最後に「今日の一歩」をつけています。読んで終わりではなく、1つだけ試してみることを大切にしています。",
+									"text": "カナダのカールトン大学で先延ばしを研究してきたティモシー・パイキルや、心理学者のフスキア・シロワは、先延ばしを「気分の調整の失敗」としてとらえています。",
 									"marks": []
 								}
 							]
@@ -15221,6 +15218,6822 @@
 								{
 									"_type": "span",
 									"_key": "k1ji",
+									"text": "ある作業を前にしたとき、私たちは退屈さ、不安、自信のなさ、めんどうくささといった嫌な気分を感じます。先延ばしをすると、その嫌な気分から一時的に逃げられます。つまり先延ばしは、作業そのものではなく、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1jj",
+									"text": "作業にともなう嫌な気分を避ける行動",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1jk",
+									"text": "だというわけです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1jl",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1jm",
+									"text": "ところが、嫌な気分は先延ばしにしても消えません。締め切りが近づくほど不安は大きくなり、さらに手をつけにくくなる。こうして悪い循環が生まれます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1jn",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1jo",
+									"text": "なぜ「あとでやればいい」と思えてしまうのか",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1jp",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1jq",
+									"text": "カナダのカルガリー大学の心理学者ピアーズ・スティールは、先延ばしについての多くの研究をまとめ、人がどんなときに先延ばしをしやすいかを整理しました。著書『ヒトはなぜ先延ばしをしてしまうのか』では、次のような条件がそろうと先延ばしが起きやすいと説明されています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1jr",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1js",
+									"text": "うまくできる自信がない",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1jt",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ju",
+									"text": "作業がつまらない、やる価値を感じにくい",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1jv",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1jw",
+									"text": "ごほうび(成果)が、ずっと先にしか得られない",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1jx",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1jy",
+									"text": "目の前に、もっと楽しい誘惑がある",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1jz",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1k0",
+									"text": "たとえば、半年後の資格試験の勉強は、成果がずっと先にあり、目の前にはスマホという楽しい誘惑があります。先延ばしが起きやすい条件が、ほとんどそろっています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1k1",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1k2",
+									"text": "対処法1:最初の一手を、とにかく小さく",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1k3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1k4",
+									"text": "嫌な気分は、作業を始める直前がいちばん強く、始めてしまうと少しずつ弱まることが多いものです。だからこそ、始めるハードルを下げることが効きます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1k5",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1k6",
+									"text": "「企画書を書く」→「ファイルを開いて、タイトルだけ書く」",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1k7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1k8",
+									"text": "「部屋を片づける」→「机の上の紙を1枚だけ捨てる」",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1k9",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ka",
+									"text": "「確定申告をする」→「必要な書類を1か所に集める」",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1kb",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1kd",
+									"href": "/posts/tiny-start"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1kc",
+									"text": "タイマーを5分にセットして「5分だけやる」と決めるのも効果的です。5分たったらやめてもかまいません。実際には、始めてしまえば続けられることも多いはずです。行動を小さくする考え方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1ke",
+									"text": "『習慣は「小さすぎる一歩」から始める』",
+									"marks": [
+										"k1kd"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1kf",
+									"text": "でも詳しく書きました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1kg",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1kh",
+									"text": "対処法2:作業を細かく分けて、見通しを立てる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ki",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1kk",
+									"href": "/posts/brain-dump"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1kj",
+									"text": "大きな作業は、何から手をつければいいかわからず、それだけで不安になります。作業を細かく分けて、1つ1つを30分以内で終わる大きさにすると、全体の見通しが立ち、取りかかりやすくなります。分け方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1kl",
+									"text": "『頭の中の「気になること」を全部書き出すと、なぜ楽になるのか』",
+									"marks": [
+										"k1kk"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1km",
+									"text": "で紹介した「次にやる具体的な行動」の書き方が参考になります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1kn",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ko",
+									"text": "対処法3:誘惑を遠ざける",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1kp",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1kr",
+									"href": "/posts/deep-focus"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1kq",
+									"text": "スティールの整理にもあるように、すぐそばにある誘惑は先延ばしの大きな原因です。作業をするときは、スマホを別の部屋に置く、関係のないタブを閉じる、通知を切る。誘惑と戦うより、誘惑が目に入らない環境をつくるほうが楽です。集中できる環境づくりは",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1ks",
+									"text": "『集中力は「意志」より「環境」でつくる』",
+									"marks": [
+										"k1kr"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1kt",
+									"text": "でも紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ku",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1kv",
+									"text": "対処法4:先延ばしした自分を許す",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1kw",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1kx",
+									"text": "意外に思えるかもしれませんが、先延ばしをした自分を責めすぎないことも、次の先延ばしを減らすのに役立つと考えられています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ky",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1kz",
+									"text": "カールトン大学のマイケル・ウォールらが2010年に発表した研究では、大学生を対象に、1回目の試験の勉強を先延ばしにした自分をどのくらい許せたかを調べました。その結果、自分を許せた学生ほど、次の試験では先延ばしが少なかったと報告されています。自分を責め続けると、その嫌な気分がまた次の先延ばしの原因になる。許すことで、その悪い循環を断ち切れるというわけです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1l0",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1l2",
+									"href": "/posts/self-compassion"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1l1",
+									"text": "「またやってしまった」と思ったら、「先延ばしは誰にでもある。今から5分だけやろう」と自分に声をかけてみてください。自分への思いやりについては",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1l3",
+									"text": "『自分に厳しすぎる人へ。セルフ・コンパッションという考え方』",
+									"marks": [
+										"k1l2"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1l4",
+									"text": "で詳しく書いています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1l5",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1l6",
+									"text": "対処法5:締め切りを自分でつくる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1l7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1l8",
+									"text": "締め切りが遠い作業は、どうしても後回しになります。そんなときは、自分で小さな締め切りをつくります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1l9",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1la",
+									"text": "「今週の金曜までに、第1章の下書きを終える」と同僚に伝えておく",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1lb",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1lc",
+									"text": "家族に「土曜の午前中に書類を仕上げる」と宣言する",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1ld",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1le",
+									"text": "カレンダーに、作業ごとの締め切りを書きこむ",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1lf",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1lg",
+									"text": "人に伝えておくと、守ろうという気持ちが強くなります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1lh",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1li",
+									"text": "「やる気が出たらやる」を手放す",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1lj",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1lk",
+									"text": "先延ばしをする人の多くは、「やる気が出たら始めよう」と考えています。でも、やる気は待っていてもなかなか来ません。むしろ、手を動かし始めたあとに、やる気がついてくることが多いものです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ll",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1lm",
+									"text": "だからこそ、やる気を待つのではなく、「何時になったら始める」と時間で決めておきます。「朝9時になったら、メールを開く前に企画書のファイルを開く」。決めた時間が来たら、気分に関係なく最初の一手だけをやる。この形にしておくと、やる気のある日もない日も、作業が少しずつ進みます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ln",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1lo",
+									"text": "先延ばしがひどく続くとき",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1lp",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1lq",
+									"text": "先延ばしが仕事や生活に大きな支障をきたしていて、自分の工夫ではどうにもならないと感じるときは、気分の落ち込みや、注意の特性などが関係していることもあります。つらさが続くようなら、医療機関や専門家に相談することも考えてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1lr",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ls",
+									"text": "先延ばしは、だらしなさの証拠ではありません。嫌な気分から自分を守ろうとする、ごく自然な反応です。その仕組みを知っておけば、責めるかわりに、工夫で対処できるようになります。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "後回しにしていることを1つ選び、タイマーを5分にセットして、その最初の一手だけをやってみる。",
+					"books": "procrastination,self-compassion"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"time"
+					],
+					"tag": [
+						"research",
+						"stress",
+						"small-step"
+					]
+				}
+			},
+			{
+				"id": "post-smartphone-time",
+				"slug": "smartphone-time",
+				"status": "published",
+				"data": {
+					"title": "スマホを見る時間を減らしたい人のための、無理のない5つの工夫",
+					"excerpt": "気づけば1日に何時間もスマホを見ている。やめたいのにやめられないのは、意志が弱いからではありません。スマホとの距離を取り戻す方法です。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k1lt",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1lu",
+									"text": "ちょっとだけのつもりでSNSを開いたら、30分たっていた。寝る前に動画を見始めて、気づけば深夜。スマホを見る時間を減らしたいと思っている人は少なくありません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1lv",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1lw",
+									"text": "やめたいのにやめられないのは、意志が弱いからではありません。多くのアプリは、私たちができるだけ長く使い続けるように工夫してつくられています。だからこそ、こちらも仕組みで対抗する必要があります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1lx",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ly",
+									"text": "スマホを見すぎると何が起きるか",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1lz",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1m0",
+									"text": "スマホそのものが悪いわけではありません。連絡、調べもの、地図、学び。生活に欠かせない道具です。問題になるのは、目的のないまま長い時間使い続けてしまうことです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1m1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1m2",
+									"text": "ペンシルベニア大学のメリッサ・ハントらが2018年に発表した研究では、大学生に3週間、Facebook・Instagram・Snapchatの利用をそれぞれ1日10分までに制限してもらいました。その結果、制限したグループは、ふだんどおり使ったグループと比べて、孤独感や抑うつの症状が減ったと報告されています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1m3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1m4",
+									"text": "ただし、SNSと心の健康の関係については研究によって結果が分かれていて、「SNSを使うと必ず気分が落ちる」とまでは言えません。大事なのは、自分にとってどんな使い方が気分をよくし、どんな使い方が疲れさせるのかを知ることです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1m5",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1m6",
+									"text": "まずは使っている時間を知る",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1m7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1m8",
+									"text": "iPhoneの「スクリーンタイム」やAndroidの「Digital Wellbeing」など、スマホには利用時間を記録する機能があります。まずは1週間、何のアプリにどれくらい時間を使っているかを見てみてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1m9",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ma",
+									"text": "多くの人は、実際の利用時間が自分の感覚よりずっと長いことに驚きます。数字を見るだけでも、減らしたい気持ちが具体的になります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1mb",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1mc",
+									"text": "工夫1:ホーム画面を整理する",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1md",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1me",
+									"text": "ホーム画面の1ページ目には、電話、地図、カレンダー、メモなど、「道具」として使うアプリだけを置きます。SNSや動画、ゲームのアプリは、フォルダの奥や2ページ目以降に移します。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1mf",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1mg",
+									"text": "指が覚えている場所からアプリをなくすだけで、なんとなく開く回数はぐっと減ります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1mh",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1mi",
+									"text": "工夫2:通知を必要なものだけにする",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1mj",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1mk",
+									"text": "通知が来るたびに、私たちの注意はスマホに引き戻されます。家族や仕事の連絡など、本当に必要なもの以外の通知は切ってしまいましょう。SNSの「いいね」や、ニュースアプリのおすすめ記事の通知は、なくても困ることはほとんどありません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ml",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1mm",
+									"text": "工夫3:スマホを置く場所を決める",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1mn",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1mo",
+									"text": "いちばん効果的なのは、物理的に離すことです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1mp",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1mq",
+									"text": "寝るときは、寝室の外で充電する(目覚まし時計を別に用意する)",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1mr",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ms",
+									"text": "食事のときは、テーブルに置かない",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1mt",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1mu",
+									"text": "集中したいときは、別の部屋かかばんの中に入れる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1mv",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1mx",
+									"href": "/posts/sleep-foundation"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1mw",
+									"text": "寝室にスマホを持ち込まないだけで、寝る前のだらだら見と、朝起きてすぐのSNSチェックの両方を防げます。睡眠への影響は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1my",
+									"text": "『朝活の前に、まず睡眠を整える』",
+									"marks": [
+										"k1mx"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1mz",
+									"text": "でも紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1n0",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1n1",
+									"text": "工夫4:「使う目的」を決めてから開く",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1n2",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1n3",
+									"text": "ジョージタウン大学のカル・ニューポートは『デジタル・ミニマリスト』で、テクノロジーを「なんとなく」使うのではなく、自分が大切にしたいことに役立つ使い方だけを選んで残す考え方を提案しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1n4",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1n5",
+									"text": "具体的には、スマホを手に取る前に「何のために開くのか」を一言で言ってみます。「天気を見る」「母に返信する」。目的が終わったら閉じる。これだけで、なんとなくの時間はかなり減ります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1n6",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1n7",
+									"text": "工夫5:空いた時間にやることを用意しておく",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1n8",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1n9",
+									"text": "スマホを見る時間を減らすと、ぽっかり時間が空きます。何もすることがないと、またスマホに手が伸びてしまいます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1na",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nb",
+									"text": "ニューポートは、スマホの代わりに、手や体を使う活動や、人と直接会う時間など、充実感のある過ごし方を意識的に増やすことをすすめています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1nc",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nd",
+									"text": "読みかけの本をかばんに入れておく",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1ne",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nf",
+									"text": "散歩やストレッチをする",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1ng",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nh",
+									"text": "料理や手芸、楽器など、手を動かす趣味を始める",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1ni",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nj",
+									"text": "友人に電話をかける",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1nk",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nl",
+									"text": "スマホの時間を「減らす」だけでなく、別の楽しい時間に「置きかえる」ことが、長続きのコツです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1nm",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nn",
+									"text": "家族や身近な人と一緒に取り組む",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1no",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1np",
+									"text": "スマホとの付き合い方は、家族で話し合って決めるのもおすすめです。「食事中はみんなスマホを置く」「夜9時以降はリビングでスマホを使わない」など、家族のルールにすると、1人でがんばるより続けやすくなります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1nq",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nr",
+									"text": "子どもにスマホの使い方を注意する前に、大人が自分の使い方を見直すことも大切です。親がスマホを置いて話を聞く姿は、子どもにとって何よりの手本になります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ns",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nt",
+									"text": "「退屈」を楽しむ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1nu",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nv",
+									"text": "電車を待つ数分、レジの列に並んでいる時間。私たちはちょっとした空き時間があると、すぐにスマホを取り出します。でも、そうした退屈な時間は、頭を休めたり、考えごとを整理したりする大切な時間でもあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1nw",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nx",
+									"text": "ニューポートは『デジタル・ミニマリスト』で、1人で静かに考える時間が減っていることに警鐘を鳴らしています。ときには、何もせずにぼんやりする時間を楽しんでみてください。思わぬアイデアが浮かぶこともあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ny",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1nz",
+									"text": "週に1回、使い方を振り返る",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1o0",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1o1",
+									"text": "週末に、1週間のスクリーンタイムを見ながら振り返る時間を5分とってみてください。先週より減ったか、どのアプリの時間が長かったか、スマホを見てよかったと思える時間はどれだったか。数字と気分の両方を振り返ると、自分にとってちょうどいい使い方が少しずつわかってきます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1o2",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1o3",
+									"text": "いきなりゼロにしない",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1o4",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1o5",
+									"text": "スマホを完全にやめる必要はありません。急に使わなくなると、かえって反動で使いすぎてしまうこともあります。まずは1日30分減らす、寝室には持ち込まない、など1つだけ決めて試してみてください。小さなルールでも、1か月続ければ、生活の手ざわりが少しずつ変わっていくはずです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1o6",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1o8",
+									"href": "/posts/essential-no"
+								},
+								{
+									"_type": "link",
+									"_key": "k1ob",
+									"href": "/posts/begin-with-the-end"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1o7",
+									"text": "減らした時間で何をしたいかを考えるときは、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1o9",
+									"text": "『忙しすぎる人のための「やらないこと」の決め方』",
+									"marks": [
+										"k1o8"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1oa",
+									"text": "や",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1oc",
+									"text": "『自分にとって大事なことを書き出す。「7つの習慣」から始める価値観の整理』",
+									"marks": [
+										"k1ob"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1od",
+									"text": "もヒントになります。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "スマホの「スクリーンタイム」(利用時間の記録)を開き、昨日いちばん長く使ったアプリを確かめる。",
+					"books": "digital-minimalism,sumaho-nou"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"time"
+					],
+					"tag": [
+						"smartphone",
+						"research",
+						"small-step"
+					]
+				}
+			},
+			{
+				"id": "post-mindfulness-basics",
+				"slug": "mindfulness-basics",
+				"status": "published",
+				"data": {
+					"title": "1日3分から始めるマインドフルネス。考えすぎる頭を休める方法",
+					"excerpt": "過去の後悔や未来の心配で頭がいっぱいになったら。研究で効果が調べられてきたマインドフルネスの考え方と、今日からできる練習を紹介します。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k1oe",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1of",
+									"text": "昨日の失敗を何度も思い出してしまう。まだ起きていない明日のことが心配で眠れない。私たちの頭は、放っておくと過去と未来を行ったり来たりして、なかなか休まりません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1og",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1oh",
+									"text": "そんなときに役立つと注目されてきたのが、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1oi",
+									"text": "マインドフルネス",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1oj",
+									"text": "です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ok",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ol",
+									"text": "マインドフルネスとは",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1om",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1on",
+									"text": "マインドフルネスは、「今この瞬間に、評価をせずに、意図的に注意を向けること」と説明されます。もともとは仏教の瞑想に由来する考え方ですが、宗教色を除いたかたちで医療や心理学の分野に取り入れられてきました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1oo",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1op",
+									"text": "その代表が、マサチューセッツ大学医学部のジョン・カバットジンが1979年に始めた「マインドフルネスストレス低減法(MBSR)」です。8週間のプログラムで、瞑想やヨガ、日常生活での練習を通して、ストレスと付き合う力を育てることを目指します。カバットジン自身の著書『マインドフルネスストレス低減法』で、その考え方と具体的なやり方が紹介されています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1oq",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1or",
+									"text": "研究でわかっていること",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1os",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ot",
+									"text": "マインドフルネスの効果については、たくさんの研究が行われてきました。ジョンズ・ホプキンス大学のマダブ・ゴヤルらが2014年に発表したメタ分析(多くの研究をまとめて分析したもの)では、マインドフルネスなどの瞑想プログラムが、不安、うつ症状、痛みを軽くすることについて、中程度の根拠があるとされました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ou",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ov",
+									"text": "一方で、効果の大きさはほかの治療法と比べて特別に大きいわけではないこと、研究の質にばらつきがあることも指摘されています。マインドフルネスは万能の方法ではありませんが、ストレスと付き合うための選択肢の1つとして試す価値はある、というのが現在の理解です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ow",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ox",
+									"text": "考えすぎる頭の仕組み",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1oy",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1oz",
+									"text": "人は、何もしていないときほど、いろいろなことを考えてしまいます。ハーバード大学のマシュー・キリングスワースとダニエル・ギルバートが2010年に発表した研究では、スマホのアプリを使って人々に1日の中で何度か「今何をしているか」「今していることとは別のことを考えているか」をたずねました。その結果、人は起きている時間のおよそ半分近く、目の前のこととは別のことを考えていて、心がさまよっているときは、そうでないときより幸福感が低い傾向があったと報告されています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1p0",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1p1",
+									"text": "マインドフルネスの練習は、さまよっている心に気づき、今ここに戻ってくる練習だといえます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1p2",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1p3",
+									"text": "練習1:呼吸に注意を向ける(3分)",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1p4",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1p5",
+									"text": "いちばん基本的な練習です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1p6",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1p7",
+									"text": "椅子に座り、背すじを軽く伸ばす。目は閉じるか、少し下を見る",
+									"marks": []
+								}
+							],
+							"listItem": "number",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1p8",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1p9",
+									"text": "鼻から入って出ていく息の感覚に注意を向ける",
+									"marks": []
+								}
+							],
+							"listItem": "number",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1pa",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1pb",
+									"text": "息を吐くたびに、心の中で「1、2、3……」と10まで数える",
+									"marks": []
+								}
+							],
+							"listItem": "number",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1pc",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1pd",
+									"text": "考えごとが浮かんで数がわからなくなったら、「考えていた」と気づいて、また1から数え直す",
+									"marks": []
+								}
+							],
+							"listItem": "number",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1pe",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1pf",
+									"text": "大事なのは、考えごとが浮かんでも失敗ではないということです。心がそれるのは当たり前です。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1pg",
+									"text": "それたことに気づいて、呼吸に戻ってくること",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1ph",
+									"text": "そのものが練習です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1pi",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1pj",
+									"text": "練習2:体の感覚をたどる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1pk",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1pl",
+									"text": "寝る前などに、横になって行う練習です。足の指先から始めて、足の裏、ふくらはぎ、ひざ、太もも……と、体の各部分に順番に注意を向けていきます。温かい、重い、くすぐったい、何も感じない。どんな感覚でも、よい悪いの判断をせずに、ただ気づいていきます。体の力が抜けて、眠りやすくなる人もいます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1pm",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1pn",
+									"text": "練習3:日常の動作を味わう",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1po",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1pp",
+									"text": "特別な時間をとらなくても、ふだんの動作でマインドフルネスは練習できます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1pq",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1pr",
+									"text": "食べる",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1ps",
+									"text": ":最初のひと口だけ、香り、舌ざわり、味をゆっくり味わう",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1pt",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1pu",
+									"text": "歩く",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1pv",
+									"text": ":足の裏が地面にふれる感覚に注意を向けながら歩く",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1pw",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1px",
+									"text": "歯をみがく",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1py",
+									"text": ":ブラシの感触や、歯みがき粉の味に集中する",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1pz",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1q0",
+									"text": "1日の中で何回か、「今、何をしているか」に注意を戻すだけでも、心が少し落ち着きます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1q1",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1q2",
+									"text": "続けるコツ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1q3",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1q5",
+									"href": "/posts/if-then-planning"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1q4",
+									"text": "マインドフルネスも、ほかの習慣と同じで、短い時間を毎日続けるほうが効果を感じやすいでしょう。朝コーヒーをいれたら3分、寝る前に布団に入ったら3分、というように、決まった行動にくっつけると続けやすくなります。続け方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1q6",
+									"text": "『「もし〜なら、〜する」と決めておくだけで、行動は起きやすくなる』",
+									"marks": [
+										"k1q5"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1q7",
+									"text": "も参考にしてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1q8",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1q9",
+									"text": "不安な気持ちに名前をつける",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qa",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qb",
+									"text": "マインドフルネスの練習でよく使われる方法に、浮かんできた考えや気持ちに名前をつける、というものがあります。「今、不安を感じている」「これは心配だ」「また後悔している」。心の中で短くラベルを貼るように言葉にします。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qc",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qd",
+									"text": "名前をつけると、気持ちにのみこまれている状態から、気持ちを少し外から眺める状態に移りやすくなります。不安を消そうとするのではなく、「不安があるな」と認めて、また呼吸に注意を戻す。これをくり返すうちに、不安な気持ちが来ても、振り回されにくくなっていきます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qe",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qf",
+									"text": "アプリや教室を使ってもいい",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qg",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qh",
+									"text": "1人で練習するのが難しいと感じたら、瞑想のガイドをしてくれるアプリや、ヨガ教室、マインドフルネスの講座などを利用するのもいいでしょう。声のガイドに従うだけでいいので、初心者でも始めやすくなります。ただし、「これで病気が治る」といった大げさな宣伝をしているものには注意してください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qi",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qj",
+									"text": "気をつけたいこと",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qk",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ql",
+									"text": "瞑想をしていて、つらい記憶がよみがえったり、不安が強くなったりする人もいます。気分が悪くなったら、無理に続けずに中断してください。また、うつ病や不安障害などで治療を受けている人は、マインドフルネスを試す前に主治医に相談することをおすすめします。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qm",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1qo",
+									"href": "/posts/circle-of-control"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qn",
+									"text": "マインドフルネスは、考えるのをやめる方法ではありません。考えに気づいて、少し距離をおく方法です。反応しすぎない心の使い方については、草薙龍瞬の『反応しない練習』も参考になります。不安なときの考え方の整理は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1qp",
+									"text": "『不安なときは「変えられること」と「変えられないこと」を分ける』",
+									"marks": [
+										"k1qo"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1qq",
+									"text": "でも紹介しています。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "今日どこかで3分だけ、目を閉じて自分の呼吸を数えてみる。気がそれたら、また1から数え直す。",
+					"books": "mbsr,hannou-shinai"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"mindset"
+					],
+					"tag": [
+						"stress",
+						"research",
+						"beginner"
+					]
+				}
+			},
+			{
+				"id": "post-anger-management",
+				"slug": "anger-management",
+				"status": "published",
+				"data": {
+					"title": "カッとなったときに後悔しない。怒りとの付き合い方",
+					"excerpt": "怒りは悪い感情ではありません。でも、怒りに任せて言った一言は取り消せない。怒りの仕組みと、その場でできる対処法、怒りにくくなる考え方。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k1qr",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qs",
+									"text": "部下のミスについ声を荒らげてしまった。家族の何気ない一言にカッとなって言い返し、あとで後悔した。怒りは、人間関係でいちばん扱いにくい感情かもしれません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qt",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qu",
+									"text": "まず知っておきたいのは、怒りそのものは悪い感情ではないということです。怒りは、自分や大切なものが脅かされたときに、身を守るために生まれる自然な反応です。問題になるのは、怒りに任せた言動で人を傷つけたり、関係を壊したりすることです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qv",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qw",
+									"text": "「発散すればすっきりする」は本当か",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qx",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1qy",
+									"text": "怒りを感じたら、クッションをたたくなどして発散すればいい、という話を聞いたことがあるかもしれません。でも、研究の結果は逆を示しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1qz",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1r0",
+									"text": "アイオワ州立大学のブラッド・ブッシュマンが2002年に発表した研究では、怒らせた参加者の一部に、怒らせた相手のことを考えながらサンドバッグをたたいてもらいました。その結果、たたいたグループは、何もしなかったグループと比べて、怒りが収まるどころか、その後の攻撃的な行動が多くなったと報告されています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1r1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1r2",
+									"text": "怒りをぶつける行動は、怒りを鎮めるより、むしろ怒りを練習してしまうことになりやすいのです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1r3",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1r4",
+									"text": "その場でできる対処法",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1r5",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1r6",
+									"text": "時間をおく",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1r7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1r8",
+									"text": "怒りを感じた瞬間に反応すると、あとで後悔することを言いがちです。日本アンガーマネジメント協会は、怒りを感じてから反射的に行動しないために、数秒やりすごすことをすすめています。具体的な秒数はあくまで目安ですが、心の中でゆっくり数を数える、深呼吸を数回する、といった方法で「間」をつくるのは、誰にでもすぐ試せる対処法です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1r9",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ra",
+									"text": "その場を離れる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rb",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1rc",
+									"text": "どうしても気持ちが収まらないときは、「少し考えさせてください」と言って、いったんその場を離れます。トイレに行く、水を飲む、外の空気を吸う。物理的に距離をとると、頭が冷えやすくなります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rd",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1re",
+									"text": "怒りに点数をつける",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rf",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1rg",
+									"text": "今の怒りが10点満点で何点くらいかを、心の中で点数にしてみます。点数をつけようとすると、自分の感情を少し外から眺めることになり、それだけで冷静さが戻ってきます。また、「この程度のことは3点くらいだな」とわかると、反応の大きさも調整しやすくなります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rh",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ri",
+									"text": "怒りの奥にある「べき」を見つける",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rj",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1rk",
+									"text": "アンガーマネジメントでは、怒りの原因は出来事そのものより、自分の中にある「〜すべきだ」という考え(コアビリーフ)にあると考えます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rl",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1rm",
+									"text": "「時間は守るべきだ」→ 遅刻されるとイライラする",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1rn",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ro",
+									"text": "「あいさつはきちんとするべきだ」→ 返事がないと腹が立つ",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1rp",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1rq",
+									"text": "「仕事は完璧に仕上げるべきだ」→ 小さなミスが許せない",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1rr",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1rs",
+									"text": "「べき」そのものが悪いわけではありません。ただ、自分の「べき」が、相手にとっても当たり前だとは限りません。「遅刻はよくない」と思っていても、「5分の遅れなら許せる」「連絡があればいい」と、許せる範囲を少し広げておくと、怒る回数は減っていきます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rt",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ru",
+									"text": "見方を変える(再評価)",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rv",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1rw",
+									"text": "心理学では、出来事の受け止め方を変えて感情を調整することを「認知的再評価」と呼び、スタンフォード大学のジェームズ・グロスらの研究で、感情を調整する有効な方法の1つとされています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rx",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ry",
+									"text": "たとえば、運転中に割りこまれたとき。「なんて失礼なやつだ」と考えると腹が立ちますが、「急いで病院に向かっているのかもしれない」と考えると、怒りは少しやわらぎます。本当の理由はわかりませんが、別の解釈の可能性を考えるだけで、反応は変わります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1rz",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1s0",
+									"text": "怒りの記録をつける",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1s1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1s2",
+									"text": "怒りっぽい自分を変えたいなら、怒りを感じたときの記録をつけてみるのもおすすめです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1s3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1s4",
+									"text": "いつ、どこで",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1s5",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1s6",
+									"text": "何があったか",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1s7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1s8",
+									"text": "怒りは何点くらいか",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1s9",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1sa",
+									"text": "そのとき、自分の中にあった「べき」は何か",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1sb",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1sd",
+									"href": "/posts/expressive-writing"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1sc",
+									"text": "1〜2週間続けると、自分が怒りやすい場面や相手、時間帯が見えてきます。疲れているとき、空腹のとき、睡眠不足のときに怒りやすい人も多いものです。体の状態を整えることも、立派な怒りの対策です。書くことの効果は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1se",
+									"text": "『もやもやは書いて外に出す。日記とメモ書きのすすめ』",
+									"marks": [
+										"k1sd"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1sf",
+									"text": "でも紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1sg",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1sh",
+									"text": "怒りやすい自分を責めない",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1si",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1sj",
+									"text": "怒りっぽいことに悩んでいる人ほど、怒ったあとに「またやってしまった」と自分を強く責めがちです。でも、自分を責めることでたまったいらだちが、次の怒りの原因になることもあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1sk",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1sm",
+									"href": "/posts/self-compassion"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1sl",
+									"text": "怒ってしまったら、まず相手に謝る。そのうえで、「次に同じ場面が来たら、深呼吸を3回してから話そう」と、次にやることを1つ決めます。怒りとの付き合い方は、一度で身につくものではありません。少しずつ反応の仕方を変えていけば十分です。自分への声のかけ方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1sn",
+									"text": "『自分に厳しすぎる人へ。セルフ・コンパッションという考え方』",
+									"marks": [
+										"k1sm"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1so",
+									"text": "で詳しく紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1sp",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1sq",
+									"text": "体の状態を整える",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1sr",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1st",
+									"href": "/posts/sleep-foundation"
+								},
+								{
+									"_type": "link",
+									"_key": "k1sw",
+									"href": "/posts/how-to-rest"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ss",
+									"text": "怒りやすさは、体の状態とも深く関係しています。睡眠不足、空腹、疲れがたまっているときは、ふだんなら気にならないことにもイライラしやすくなります。大事な話し合いは、お腹がすいている時間や疲れている夜を避ける。それだけでも、言い争いはずいぶん減ります。睡眠については",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1su",
+									"text": "『朝活の前に、まず睡眠を整える』",
+									"marks": [
+										"k1st"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1sv",
+									"text": "、休み方については",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1sx",
+									"text": "『休んでも疲れがとれない人へ。「休み方」を見直す』",
+									"marks": [
+										"k1sw"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1sy",
+									"text": "を参考にしてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1sz",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1t0",
+									"text": "怒りを上手に伝える",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1t1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1t2",
+									"text": "怒りをがまんし続ける必要はありません。大事なのは、伝え方です。相手を責める言い方ではなく、「私」を主語にして、何に困っているのか、どうしてほしいのかを伝えます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1t3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1t4",
+									"text": "「なんでいつも報告が遅いの」→「報告が遅れると、お客さんへの対応が遅れて困るんだ。次からは前日までに教えてほしい」",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1t5",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1t7",
+									"href": "/posts/separation-of-tasks"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1t6",
+									"text": "ローマ皇帝マルクス・アウレーリウスも『自省録』で、怒りにまかせることの害を繰り返し書きとめています。2000年前から、怒りは人間の大きな課題だったのです。人の言動との距離のとり方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1t8",
+									"text": "『人の目が気になって疲れるときの「課題の分離」』",
+									"marks": [
+										"k1t7"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1t9",
+									"text": "でも詳しく書きました。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "最近イライラしたことを1つ思い出し、そのとき自分が「〜すべきだ」と思っていたことを書き出してみる。",
+					"books": "anger,meditations,hannou-shinai"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"relationships"
+					],
+					"tag": [
+						"stress",
+						"research"
+					]
+				}
+			},
+			{
+				"id": "post-perfectionism",
+				"slug": "perfectionism",
+				"status": "published",
+				"data": {
+					"title": "完璧主義をゆるめる。「60点で出す」練習",
+					"excerpt": "ミスが怖くて仕事がなかなか終わらない。人の評価が気になって始められない。完璧主義がもたらす疲れと、少しずつゆるめていく方法を紹介します。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k1ta",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1tb",
+									"text": "資料を何度も見直して、なかなか提出できない。少しでもミスがあると、ずっと引きずってしまう。完璧にできないなら、始めないほうがいいと思ってしまう。そんな傾向に心当たりがあるなら、完璧主義が疲れの原因になっているかもしれません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1tc",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1td",
+									"text": "完璧主義には、ていねいさや責任感といったよい面もあります。でも、それが行きすぎると、自分を追い詰め、かえって成果を下げてしまうこともあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1te",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1tf",
+									"text": "完璧主義は増えている",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1tg",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1th",
+									"text": "イギリスのバース大学のトーマス・カランとヨーク・セントジョン大学のアンドリュー・ヒルは、2019年に発表した研究で、1989年から2016年までにアメリカ・カナダ・イギリスの大学生を対象に行われた調査をまとめて分析しました。その結果、自分に完璧を求める傾向、周りから完璧を求められていると感じる傾向、他人に完璧を求める傾向のいずれも、年を追うごとに高まっていたと報告されています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ti",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1tj",
+									"text": "とくに大きく増えていたのが、「周りから完璧を求められている」と感じる傾向でした。競争の激しい社会や、SNSで人の成功が目に入りやすい環境が、その背景にあるのではないかと考えられています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1tk",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1tl",
+									"text": "2種類の完璧主義",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1tm",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1tn",
+									"text": "心理学では、完璧主義をおおまかに2つの面に分けて考えることがあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1to",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1tp",
+									"text": "高い目標を持って努力する面",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1tq",
+									"text": ":質の高い仕事をしたい、成長したいという気持ち",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1tr",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ts",
+									"text": "失敗を恐れ、自分を責める面",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1tt",
+									"text": ":ミスが許せない、人の評価が怖い、できない自分には価値がないと感じる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1tu",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1tv",
+									"text": "研究では、とくに後者の「失敗を恐れ、自分を責める面」が、不安や落ち込み、燃えつきと関係が深いとされています。目指したいのは、高い目標を持ちながらも、失敗した自分を責めすぎない状態です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1tw",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1tx",
+									"text": "完璧主義が成果を下げることもある",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ty",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1tz",
+									"text": "完璧を目指すあまり、次のようなことが起きていないでしょうか。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1u0",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1u1",
+									"text": "細部の見直しに時間をかけすぎて、締め切りに遅れる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1u2",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1u3",
+									"text": "失敗するのが怖くて、新しいことに挑戦できない",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1u4",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1u5",
+									"text": "完璧にできないと思うと、手をつけるのを先延ばしにしてしまう",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1u6",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1u7",
+									"text": "人に頼めず、全部自分で抱えこんで疲れはてる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1u8",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1ua",
+									"href": "/posts/procrastination"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1u9",
+									"text": "完璧主義と先延ばしは、実は深く結びついています。「完璧にやらなきゃ」と思うほど、始めることが怖くなるからです。先延ばしの仕組みは",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1ub",
+									"text": "『先延ばしは「怠け」ではない。気持ちの問題として向き合う』",
+									"marks": [
+										"k1ua"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1uc",
+									"text": "で詳しく書きました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ud",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ue",
+									"text": "練習1:「60点で一度出す」",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1uf",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ug",
+									"text": "仕事の資料や企画書は、完成させてから見せるのではなく、60点くらいの段階で一度、上司や同僚に見せてみます。「方向性があっているか確認させてください」と言えば、相手も気軽に意見をくれます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1uh",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ui",
+									"text": "早い段階で意見をもらえば、大きな手戻りを防げます。完璧に仕上げてから「方向が違う」と言われるより、ずっと効率的です。そして、60点で出しても大きな問題は起きない、という経験を重ねることが、完璧主義をゆるめる練習になります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1uj",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1uk",
+									"text": "練習2:かける時間を先に決める",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ul",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1um",
+									"text": "完璧主義の人は、作業の終わりを「完璧になったとき」に置きがちです。でも、完璧に終わりはありません。そこで、作業にかける時間を先に決めてしまいます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1un",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1uo",
+									"text": "「このメールは10分で書く」「この資料の見直しは30分まで」。時間が来たら、そこで終わりにします。最初は不安かもしれませんが、多くの場合、時間をかけた分ほど質は上がっていないことに気づくはずです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1up",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1uq",
+									"text": "練習3:「大事なところ」と「そうでないところ」を分ける",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ur",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1us",
+									"text": "すべての仕事に100点を目指す必要はありません。グレッグ・マキューンが『エッセンシャル思考』で書いているように、本当に大事なことは少ないのです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1ut",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1uu",
+									"text": "お客さまに出す提案書の数字 → 100点を目指す",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1uv",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1uw",
+									"text": "社内の打ち合わせメモ → 伝われば十分",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1ux",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1uy",
+									"text": "毎日の家の掃除 → 気になるところだけで十分",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1uz",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1v1",
+									"href": "/posts/essential-no"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1v0",
+									"text": "力を入れるところを決めると、そのほかは「これでいい」と思えるようになります。何に力を使うかの選び方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1v2",
+									"text": "『忙しすぎる人のための「やらないこと」の決め方』",
+									"marks": [
+										"k1v1"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1v3",
+									"text": "も参考にしてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1v4",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1v5",
+									"text": "練習4:失敗したときの言葉を変える",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1v6",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1v7",
+									"text": "ミスをしたとき、「なんでこんなこともできないんだ」と自分を責めていないでしょうか。完璧主義をゆるめるうえで、自分への思いやり(セルフ・コンパッション)はとても大切です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1v8",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1va",
+									"href": "/posts/growth-mindset"
+								},
+								{
+									"_type": "link",
+									"_key": "k1vd",
+									"href": "/posts/self-compassion"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1v9",
+									"text": "「ミスはあったけれど、すぐに気づいて直せた」「次はチェックの順番を変えてみよう」。失敗を責める材料ではなく、やり方を直す情報として扱います。この考え方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1vb",
+									"text": "『「才能がない」と思ったときに知っておきたい、マインドセットの話』",
+									"marks": [
+										"k1va"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1vc",
+									"text": "や",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1ve",
+									"text": "『自分に厳しすぎる人へ。セルフ・コンパッションという考え方』",
+									"marks": [
+										"k1vd"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1vf",
+									"text": "で詳しく紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1vg",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1vh",
+									"text": "「完璧」より「完了」",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1vi",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1vj",
+									"text": "アメリカでよく知られた言葉に「完了は完璧に勝る(Done is better than perfect)」というものがあります。どんなに完璧なものでも、完成しなければ誰の役にも立ちません。一方、完了したものは、人に見てもらい、意見をもらい、改善していくことができます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1vk",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1vl",
+									"text": "完璧にしようとして手が止まったら、「これを完了させるために、最低限必要なことは何か」と自分に聞いてみてください。最低限のことが終わったら、いったん完了とする。足りないところは、次の機会に直せばいいのです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1vm",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1vn",
+									"text": "他人の完璧さと比べない",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1vo",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1vp",
+									"text": "SNSには、ほかの人の「うまくいった場面」ばかりが並んでいます。整った部屋、おしゃれな料理、仕事での成功。それを見て、自分も完璧でなければと感じてしまうことがあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1vq",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1vs",
+									"href": "/posts/smartphone-time"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1vr",
+									"text": "でも、人が見せているのは、生活のほんの一部です。その裏には、散らかった部屋も、失敗した料理もあるはずです。人と比べて苦しくなったら、SNSを見る時間を減らしてみるのも1つの方法です。スマホとの付き合い方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1vt",
+									"text": "『スマホを見る時間を減らしたい人のための、無理のない5つの工夫』",
+									"marks": [
+										"k1vs"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1vu",
+									"text": "で紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1vv",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1vw",
+									"text": "練習5:人に頼る",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1vx",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1vy",
+									"text": "完璧主義の人は、「人に頼むと自分の基準どおりにならない」と考えて、何でも自分で抱えこみがちです。でも、自分の8割の質で仕上げてくれる人がいれば、それは大きな助けです。任せた仕事が自分のやり方と違っても、結果に問題がなければ、それでよしとする練習をしてみてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1vz",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1w0",
+									"text": "完璧主義は、性格だからと変えられないものではありません。「60点で出してみる」「時間を決める」といった小さな練習を重ねることで、少しずつゆるめていけます。ゆるめた分だけ、挑戦できることが増え、毎日が少し楽になるはずです。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "今抱えている作業を1つ選び、「60点でいったん人に見せる日」を決めてカレンダーに書く。",
+					"books": "self-compassion,mindset,essentialism"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"mindset"
+					],
+					"tag": [
+						"stress",
+						"research",
+						"small-step"
+					]
+				}
+			},
+			{
+				"id": "post-money-and-happiness",
+				"slug": "money-and-happiness",
+				"status": "published",
+				"data": {
+					"title": "お金で幸せは買えるのか。研究からわかった「幸せになるお金の使い方」",
+					"excerpt": "収入が増えれば幸せになれるのか。お金と幸福感の関係について研究でわかってきたことと、同じお金で満足度を上げる使い方を紹介します。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k1w1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1w2",
+									"text": "もっと収入が増えれば、もっと幸せになれるのではないか。多くの人が一度は考えることです。お金と幸せの関係は、心理学や経済学で長く研究されてきたテーマでもあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1w3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1w4",
+									"text": "この記事では、投資や節約の具体的な方法ではなく、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1w5",
+									"text": "お金と幸福感の関係",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1w6",
+									"text": "について研究でわかってきたことと、日々のお金の使い方のヒントを紹介します。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1w7",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1w8",
+									"text": "収入が増えると、幸福感は上がるのか",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1w9",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wa",
+									"text": "この問題でよく知られているのが、ノーベル経済学賞を受けたダニエル・カーネマンとアンガス・ディートンが2010年に発表した研究です。アメリカの調査データを分析した結果、日々の感情的な幸福感は、年収がおよそ7万5000ドルを超えるとそれ以上はあまり上がらなくなる、と報告しました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wb",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wc",
+									"text": "ところが、2021年にペンシルベニア大学のマシュー・キリングスワースが発表した研究では、より細かいデータを使って、収入が増えるほど幸福感も上がり続けるという結果が出ました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wd",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1we",
+									"text": "結果が食い違ったため、キリングスワースとカーネマンは、心理学者のバーバラ・メラーズを交えて、対立する立場の研究者どうしで共同研究を行い、2023年に結果を発表しました。それによると、多くの人では収入が増えるにつれて幸福感も上がり続ける一方、もともと幸福感がとくに低い人たちでは、ある程度の収入で頭打ちになっていた、とされています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wf",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wg",
+									"text": "つまり、お金は多くの人にとって幸福感と関係がある。ただし、お金だけでは解決しないつらさもある、ということです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wh",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wi",
+									"text": "同じお金でも、使い方で満足度は変わる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wj",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wk",
+									"text": "収入をすぐに増やすのは簡単ではありません。でも、使い方なら今日から変えられます。ブリティッシュ・コロンビア大学のエリザベス・ダンとハーバード・ビジネス・スクールのマイケル・ノートンは、著書『「幸せをお金で買う」5つの授業』で、お金の使い方と幸福感についての研究を紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wl",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wm",
+									"text": "人のために使う",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wn",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wo",
+									"text": "ダンらが2008年にサイエンス誌に発表した研究では、参加者に5ドルか20ドルを渡し、その日のうちに自分のために使うか、人のために使うかを指定しました。その結果、人のために使ったグループのほうが、その日の終わりの幸福感が高かったと報告されています。金額の大小より、誰のために使ったかのほうが影響していました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wp",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wq",
+									"text": "高価な贈りものでなくてもかまいません。同僚にコーヒーを買う、家族に好物のお菓子を買って帰る、寄付をする。小さな金額でも、人のために使うことで満足感が得られます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wr",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ws",
+									"text": "モノより体験に使う",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wt",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wu",
+									"text": "心理学の研究では、モノを買うより、旅行やコンサート、習いごとなどの体験にお金を使うほうが、満足感が長く続きやすいという結果が多く報告されています。体験は思い出として残り、人に話すことで何度も楽しめ、ほかの人と比べにくいからだと考えられています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wv",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ww",
+									"text": "時間を買う",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wx",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1wy",
+									"text": "ダンらは、家事の代行など、お金を払って自分の時間を生み出すことも、幸福感と関係すると報告しています。いやな家事を減らして、その時間を家族や趣味に使えるなら、それは価値のあるお金の使い方です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1wz",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1x0",
+									"text": "人生の時期ごとに使う",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1x1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1x2",
+									"text": "ビル・パーキンスの『DIE WITH ZERO』は、お金を貯めること自体が目的になってしまうことに疑問を投げかける本です。パーキンスは、体力のある若いうちにしかできない体験、子どもが小さいうちにしかできない体験があると指摘し、人生の時期ごとにお金を使う計画を立てることを提案しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1x3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1x4",
+									"text": "もちろん、老後や万一への備えは大切です。そのうえで、「いつか使おう」と貯めこむだけでなく、今しかできない体験に計画的にお金を使うという視点も持っておきたいものです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1x5",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1x6",
+									"text": "お金の不安を小さくするために",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1x7",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1x9",
+									"href": "/posts/circle-of-control"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1x8",
+									"text": "お金の不安は、わからないことから生まれることが多いものです。まずは、毎月の収入と、家賃・通信費・保険などの固定費を紙に書き出してみてください。全体が見えるだけで、漠然とした不安は具体的な課題に変わります。不安を「変えられること」と「変えられないこと」に分ける考え方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1xa",
+									"text": "『不安なときは「変えられること」と「変えられないこと」を分ける』",
+									"marks": [
+										"k1x9"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1xb",
+									"text": "でも紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1xc",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xd",
+									"text": "なお、資産運用や保険など、個別のお金の判断は、状況によって最適な答えが違います。必要に応じて、信頼できる専門家に相談してください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1xe",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xf",
+									"text": "お金の使い方を振り返る",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1xg",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xh",
+									"text": "自分のお金の使い方が、満足度につながっているかを確かめるために、1か月の支出を振り返ってみるのもおすすめです。レシートや家計簿アプリの記録を見ながら、それぞれの支出に「満足」「ふつう」「後悔」の印をつけてみます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1xi",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xj",
+									"text": "友人との食事 → 満足",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1xk",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xl",
+									"text": "なんとなく買ったコンビニのお菓子 → 後悔",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1xm",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xn",
+									"text": "子どもと行った動物園 → 満足",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1xo",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xp",
+									"text": "印をつけてみると、自分が何にお金を使うと満足するのか、何が無駄だったのかが見えてきます。後悔した支出を減らし、満足した支出を少し増やす。それだけで、同じ収入でも満足度は上がっていきます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1xq",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xr",
+									"text": "比べると、満足は小さくなる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1xs",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xt",
+									"text": "同じ給料でも、同僚の給料が自分より高いと知ると、満足感は下がってしまいます。人は、自分のお金を、絶対的な金額よりも周りの人との比較で評価しやすいからです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1xu",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xv",
+									"text": "SNSで人の高価な買いものや旅行を見て、うらやましく感じることもあるでしょう。でも、他人の基準で使うお金は、自分の満足にはつながりにくいものです。比べる相手を、他人ではなく、去年の自分や、自分の価値観に変えてみてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1xw",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xx",
+									"text": "自分にとっての「十分」を知る",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1xy",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1y0",
+									"href": "/posts/begin-with-the-end"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1xz",
+									"text": "人と比べると、お金はいくらあっても足りないように感じます。大切なのは、自分にとって何があれば十分なのかを知ることです。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1y1",
+									"text": "『自分にとって大事なことを書き出す。「7つの習慣」から始める価値観の整理』",
+									"marks": [
+										"k1y0"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1y2",
+									"text": "で紹介した価値観の書き出しは、お金の使い道を考えるときにも役に立ちます。大事にしたいことにお金を使えているなら、それがいちばん満足度の高い使い方です。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "今月使えるお金のうち、1000円分だけ「誰かのため」か「体験」に使う予定を立ててみる。",
+					"books": "happy-money,die-with-zero"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"career"
+					],
+					"tag": [
+						"research",
+						"classic"
+					]
+				}
+			},
+			{
+				"id": "post-good-relationships",
+				"slug": "good-relationships",
+				"status": "published",
+				"data": {
+					"title": "80年以上の研究が示す、幸せな人生にいちばん大切なもの",
+					"excerpt": "ハーバード大学で80年以上続く研究が見つけた、健康で幸せな人生のいちばんの手がかりは「よい人間関係」でした。忙しい大人が関係を育てる方法。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k1y3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1y4",
+									"text": "健康で幸せな人生を送るために、いちばん大切なものは何でしょうか。お金、仕事での成功、健康的な食事。いろいろ思い浮かびますが、長い研究が示した答えは、少し意外なものでした。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1y5",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1y6",
+									"text": "80年以上続く研究",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1y7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1y8",
+									"text": "ハーバード大学の「成人発達研究」は、1938年に始まりました。最初の参加者は、ハーバード大学の2年生と、ボストンの貧しい地域で育った少年たちです。研究者たちは、彼らの人生を何十年にもわたって追いかけ、健康状態、仕事、家族、人間関係などを調べ続けてきました。今では参加者の子どもの世代も対象になっています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1y9",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ya",
+									"text": "この研究の現在の責任者であるロバート・ウォールディンガーと、副責任者のマーク・シュルツは、著書『グッド・ライフ』で、研究からわかったことをまとめています。その中心にある結論は、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1yb",
+									"text": "よい人間関係が、人を幸せにし、健康にする",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1yc",
+									"text": "というものです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yd",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ye",
+									"text": "人間関係が健康にも関わる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yf",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1yg",
+									"text": "ウォールディンガーらによると、50歳の時点で人間関係に最も満足していた人たちは、80歳になったとき、心身ともに健康である傾向がありました。人間関係の満足度は、コレステロールの値よりも、その後の健康をよく予測していたといいます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yh",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1yi",
+									"text": "孤独と健康の関係は、ほかの研究でも注目されています。アメリカの公衆衛生のトップである公衆衛生局長官は、2023年に孤独と社会的孤立を公衆衛生上の重大な問題とする勧告を出しました。人とのつながりは、気分の問題だけでなく、体の健康にも関わっているのです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yj",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1yk",
+									"text": "大切なのは数より質",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yl",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ym",
+									"text": "人間関係が大切だといっても、友人の数を増やせばいいというわけではありません。ウォールディンガーは、大切なのは関係の質だと強調しています。困ったときに頼れる人、本音を話せる人が、1人でも2人でもいることが大事なのです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yn",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1yo",
+									"text": "反対に、いつも言い争いが絶えない関係は、健康によくない影響を与えることもあると指摘されています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yp",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1yq",
+									"text": "関係は「手入れ」が必要",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yr",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ys",
+									"text": "ウォールディンガーとシュルツは、人間関係を体の健康と同じように、日々の手入れが必要なものとして考えることをすすめています。運動をしないと体力が落ちるように、連絡をとらない関係は少しずつ弱くなっていきます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yt",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1yu",
+									"text": "忙しい大人が、関係を育てるためにできることを挙げてみます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1yv",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1yw",
+									"text": "短い連絡をこまめに",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1yx",
+									"text": ":長い電話でなくても、「元気?」の一言でいい",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1yy",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1yz",
+									"text": "定期的に会う約束をする",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1z0",
+									"text": ":月に1回のランチなど、決まった予定にしてしまう",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1z1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1z2",
+									"text": "一緒に何かをする",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1z3",
+									"text": ":散歩、料理、趣味など、同じ体験をする",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1z4",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1z5",
+									"text": "感謝を言葉にする",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1z6",
+									"text": ":当たり前になっている家族や同僚に、ありがとうを伝える",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1z7",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1z8",
+									"text": "新しいつながりもつくれる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1z9",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1za",
+									"text": "大人になると、新しい友人をつくるのは難しいと感じるかもしれません。でも『グッド・ライフ』のタイトルにもあるように、幸せになるのに遅すぎることはありません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1zb",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1zc",
+									"text": "地域の活動やボランティアに参加する",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1zd",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1ze",
+									"text": "習いごとや勉強会に通う",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1zf",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1zg",
+									"text": "職場で、いつもと違う人をランチに誘う",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k1zh",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1zj",
+									"href": "/posts/lifelong-learning"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1zi",
+									"text": "同じ場所に何度も通い、同じ顔ぶれと会ううちに、関係は自然と育っていきます。学び直しの場がつながりのきっかけになることもあります。大人の学び方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1zk",
+									"text": "『何歳からでも学び直せる。忙しい大人の学びの始め方』",
+									"marks": [
+										"k1zj"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1zl",
+									"text": "でも紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1zm",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1zn",
+									"text": "身近な人との関係を大切に",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1zo",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1zp",
+									"text": "いちばん身近な家族やパートナーとの関係は、つい後回しにしがちです。毎日顔を合わせているからこそ、話をじっくり聞く時間がなくなっていないでしょうか。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1zq",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1zs",
+									"href": "/posts/listen-first"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1zr",
+									"text": "デール・カーネギーの『人を動かす』には、相手に関心を持ち、誠実に評価することの大切さが書かれています。身近な人にこそ、相手の話に耳を傾け、感謝を伝える。聞き方のコツは",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1zt",
+									"text": "『話し上手より聞き上手。関係がよくなる聞き方のコツ』",
+									"marks": [
+										"k1zs"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1zu",
+									"text": "で紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1zv",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1zw",
+									"text": "職場の人間関係も大切に",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1zx",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1zy",
+									"text": "1日の多くの時間を過ごす職場の人間関係も、幸福感に大きく関わります。親しい友人をつくる必要はありませんが、あいさつをする、ちょっとした雑談をする、困っている人に声をかける、といった小さなやりとりが、働きやすさを変えてくれます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1zz",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k200",
+									"text": "ウォールディンガーとシュルツも、職場での人間関係が仕事の満足度に関わることにふれています。昼休みに同僚と話す、仕事を手伝ってもらったらお礼を伝える。そうした日々の小さなつながりが、仕事のつらさをやわらげてくれることがあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k201",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k202",
+									"text": "年齢を重ねても、関係は育てられる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k203",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k204",
+									"text": "『グッド・ライフ』には、年をとってから新しい友人をつくったり、疎遠になっていた家族と関係を取り戻したりした参加者の例も紹介されています。人間関係は、若いうちに決まってしまうものではありません。何歳からでも、連絡をとる、会う、話を聞くといった行動で、少しずつ育てていくことができます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k205",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k206",
+									"text": "1人の時間も大切に",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k207",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k208",
+									"text": "人間関係が大切だからといって、いつも誰かと一緒にいる必要はありません。1人で過ごす時間を心地よく感じる人も多いでしょう。大切なのは、1人でいることを自分で選べていることと、困ったときに頼れる人がいることです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k209",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20a",
+									"text": "ウォールディンガーらも、つながりの必要な量は人によって違うと述べています。自分にとって心地よい人との距離を知り、その範囲で大切な関係を育てていけば十分です。にぎやかな付き合いが苦手な人は、少人数で、ゆっくり話せる関係を大事にしてみてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k20b",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20c",
+									"text": "人間関係に疲れたときは",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k20d",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k20f",
+									"href": "/posts/separation-of-tasks"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20e",
+									"text": "もちろん、すべての人間関係が心地よいわけではありません。無理に付き合いを広げる必要はありませんし、自分を傷つける関係からは距離をとることも大切です。人の評価に振り回されてしまうときは、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k20g",
+									"text": "『人の目が気になって疲れるときの「課題の分離」』",
+									"marks": [
+										"k20f"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k20h",
+									"text": "もあわせて読んでみてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k20i",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20j",
+									"text": "80年以上の研究が教えてくれるのは、特別なことではありません。大切な人に連絡をとり、一緒に時間を過ごす。その小さな積み重ねが、長い人生を支えてくれるのです。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "しばらく連絡していない大切な人を1人思い浮かべ、今日のうちに短いメッセージを送ってみる。",
+					"books": "good-life,how-to-win"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"relationships"
+					],
+					"tag": [
+						"research",
+						"classic"
+					]
+				}
+			},
+			{
+				"id": "post-goal-setting",
+				"slug": "goal-setting",
+				"status": "published",
+				"data": {
+					"title": "目標は「具体的に、少し難しく」。研究にもとづく目標の立て方",
+					"excerpt": "「がんばる」だけでは目標にならない。50年以上研究されてきた目標設定の理論から、達成しやすい目標の立て方と、よくある落とし穴をまとめました。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k20k",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20l",
+									"text": "新年や新年度に目標を立てても、気づけば忘れてしまっている。目標を立てるのが苦手だという人は多いものです。でも、目標の立て方には、研究にもとづいたコツがあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k20m",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20n",
+									"text": "「ベストを尽くす」では足りない",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k20o",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20p",
+									"text": "目標についての研究で最もよく知られているのが、メリーランド大学のエドウィン・ロックとトロント大学のゲイリー・レイサムによる「目標設定理論」です。2人は数十年にわたる多くの研究をまとめ、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k20q",
+									"text": "具体的で、ある程度難しい目標",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k20r",
+									"text": "を立てた人は、「ベストを尽くそう」というあいまいな目標を立てた人より、高い成果を上げる傾向があることを示しました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k20s",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20t",
+									"text": "「ベストを尽くす」という目標は、どこまでやれば達成なのかがわかりません。そのため、少しやっただけで「十分がんばった」と感じてしまいがちです。目標がはっきりしていると、どれだけ努力すればいいかがわかり、途中で自分の進み具合を確かめることもできます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k20u",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20v",
+									"text": "有名な「目標を書いた3%」の話",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k20w",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20x",
+									"text": "ところで、「目標を紙に書いていた3%の卒業生が、残りの97%より多く稼いでいた」という、ハーバード大学やイェール大学の卒業生の話を聞いたことはないでしょうか。自己啓発の本やセミナーでよく紹介されてきた話ですが、実はこの調査が実際に行われたという記録は見つかっていません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k20y",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k20z",
+									"text": "目標を書くことに意味がないわけではありません。ただ、出どころのはっきりしない話より、実際の研究にもとづいて考えるほうが確かです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k210",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k211",
+									"text": "達成しやすい目標の条件",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k212",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k213",
+									"text": "1. 具体的にする",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k214",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k215",
+									"text": "「英語を勉強する」ではなく、「12月の試験で、今より100点高いスコアをとる」。何を、いつまでに、どのくらい達成するのかを決めます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k216",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k217",
+									"text": "2. 少し難しくする",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k218",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k219",
+									"text": "ロックとレイサムの研究では、簡単すぎる目標より、ある程度難しい目標のほうが成果につながるとされています。ただし、どう考えても不可能な目標は、やる気を失わせます。「がんばれば届きそう」くらいがちょうどいい難しさです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k21a",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21b",
+									"text": "3. 進み具合がわかるようにする",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k21c",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21d",
+									"text": "途中経過がわからないと、やる気が続きません。模試の点数、毎月の体重、読んだページ数など、進み具合を確かめられる数字を決めておきます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k21e",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21f",
+									"text": "4. 自分が本当にかなえたいことにする",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k21g",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k21i",
+									"href": "/posts/begin-with-the-end"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21h",
+									"text": "人に言われた目標や、なんとなく立てた目標は、続きにくいものです。その目標をかなえたら、どんないいことがあるのかを書き出してみてください。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k21j",
+									"text": "『自分にとって大事なことを書き出す。「7つの習慣」から始める価値観の整理』",
+									"marks": [
+										"k21i"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k21k",
+									"text": "で紹介した価値観の整理が役に立ちます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k21l",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21m",
+									"text": "結果の目標と、行動の目標を組み合わせる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k21n",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21o",
+									"text": "「体重を5キロ減らす」は結果の目標です。結果の目標は、目指す方向をはっきりさせてくれますが、毎日何をすればいいかは教えてくれません。そこで、結果の目標に、毎日・毎週の行動の目標を組み合わせます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k21p",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21q",
+									"text": "結果の目標:半年で体重を5キロ減らす",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k21r",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21s",
+									"text": "行動の目標:平日は夕食後に20分歩く、間食は1日1回まで",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k21t",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k21v",
+									"href": "/posts/tiny-start"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21u",
+									"text": "ジェームズ・クリアーは『複利で伸びる1つの習慣』で、目標よりも日々の仕組み(システム)が大切だと書いています。結果は自分でコントロールしきれませんが、行動は自分で選べます。行動を習慣にする方法は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k21w",
+									"text": "『習慣は「小さすぎる一歩」から始める』",
+									"marks": [
+										"k21v"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k21x",
+									"text": "で詳しく紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k21y",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k21z",
+									"text": "障害も一緒に考える",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k220",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k222",
+									"href": "/posts/if-then-planning"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k221",
+									"text": "目標を立てたら、それをじゃまするものも考えておきます。ニューヨーク大学のガブリエル・エッティンゲンが提案する「WOOP」は、願い・成果・障害・計画の4つのステップで目標を考える方法です。障害が起きたときにどうするかを「もし〜なら、〜する」の形で決めておくと、実行しやすくなります。詳しくは",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k223",
+									"text": "『「もし〜なら、〜する」と決めておくだけで、行動は起きやすくなる』",
+									"marks": [
+										"k222"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k224",
+									"text": "で紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k225",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k226",
+									"text": "目標を人に話すべきか",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k227",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k228",
+									"text": "目標は人に話したほうがいいのか、話さないほうがいいのか。この点については、研究によって結果が分かれています。人に宣言すると、守ろうという気持ちが強くなる一方で、話しただけで達成したような気分になり、かえって努力が減ることがあるという研究もあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k229",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22a",
+									"text": "1つの考え方として、目標を話すなら、応援してくれる人や、進み具合を一緒に確かめてくれる人に話すのがよいでしょう。「来月の試験までに毎日30分勉強する。週末に進み具合を聞いてくれる?」と、具体的な行動とセットで伝えると、励みになります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k22b",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22c",
+									"text": "小さな達成を記録する",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k22d",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k22f",
+									"href": "/posts/never-miss-twice"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22e",
+									"text": "大きな目標は、達成までに時間がかかります。途中でやる気が落ちないように、小さな達成を記録しておきましょう。「今週は5日勉強できた」「模試で20点上がった」。目標に向かって進んでいることが目に見えると、続ける力になります。記録の続け方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k22g",
+									"text": "『三日坊主のあとが大事。「2日続けて休まない」立て直し方』",
+									"marks": [
+										"k22f"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k22h",
+									"text": "も参考にしてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k22i",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22j",
+									"text": "目標が多すぎるときは",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k22k",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k22m",
+									"href": "/posts/essential-no"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22l",
+									"text": "あれもこれもと目標を立てすぎると、力が分散して、どれも中途半端になりがちです。目標がたくさんあるときは、紙に書き出して、「今いちばん大事な1つ」を選びます。残りは「いつかやる」リストに移しておき、1つめが軌道に乗ってから取りかかります。何をやらないかの決め方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k22n",
+									"text": "『忙しすぎる人のための「やらないこと」の決め方』",
+									"marks": [
+										"k22m"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k22o",
+									"text": "も参考にしてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k22p",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22q",
+									"text": "1つの目標に集中すると、達成までの道のりが短くなり、達成した経験が次の目標への自信にもなります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k22r",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22s",
+									"text": "目標は見直していい",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k22t",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22u",
+									"text": "目標を立てたあとに状況が変わることもあります。仕事が忙しくなった、体調をくずした、もっとやりたいことが見つかった。そんなときは、目標を下げたり、期限を延ばしたり、別の目標に変えたりしてかまいません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k22v",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22w",
+									"text": "月に1回、目標を見直す時間をとりましょう。進み具合を確かめ、うまくいっていることと、うまくいっていないことを書き出します。目標は、自分を縛るためのものではなく、進む方向を示してくれる道しるべです。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "今年中にかなえたいことを1つ選び、「いつまでに・何を・どのくらい」が入った1文に書き直してみる。",
+					"books": "succeed,atomic-habits,woop"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"habits"
+					],
+					"tag": [
+						"research",
+						"beginner",
+						"writing"
+					]
+				}
+			},
+			{
+				"id": "post-how-to-rest",
+				"slug": "how-to-rest",
+				"status": "published",
+				"data": {
+					"title": "休んでも疲れがとれない人へ。「休み方」を見直す",
+					"excerpt": "休日に寝て過ごしたのに、月曜の朝もぐったり。疲れをとるには、ただ休むだけでなく、休み方を選ぶことが大切です。研究にもとづく回復のヒント。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k22x",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22y",
+									"text": "休日は家でごろごろして過ごしたのに、月曜の朝になっても疲れが残っている。そんな経験はないでしょうか。疲れをとるには、ただ体を横にするだけでは足りないことがあります。大切なのは、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k22z",
+									"text": "どう休むか",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k230",
+									"text": "です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k231",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k232",
+									"text": "回復に役立つ4つの体験",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k233",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k234",
+									"text": "ドイツの心理学者ザビーネ・ゾンネンタークは、仕事のストレスからの回復について研究してきました。ゾンネンタークとチャールズ・フリッツが2007年に発表した研究では、仕事のあとの時間に次の4つの体験があると、疲れからの回復が進みやすいとされています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k235",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k236",
+									"text": "心理的な切り離し",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k237",
+									"text": ":仕事のことを考えず、頭を仕事から離す",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k238",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k239",
+									"text": "リラックス",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k23a",
+									"text": ":体と心の緊張をゆるめる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k23b",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23c",
+									"text": "熟達",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k23d",
+									"text": ":新しいことを学ぶ、挑戦するなど、仕事とは別の手ごたえを得る",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k23e",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23f",
+									"text": "コントロール",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k23g",
+									"text": ":何をするかを自分で選べる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k23h",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23i",
+									"text": "ごろごろしながらも、ずっと仕事のメールを気にしていたら、「切り離し」ができていません。逆に、趣味のスポーツで汗を流した日は、体は動かしていても、頭は仕事から離れ、気分よく回復できることがあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k23j",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23k",
+									"text": "疲れのタイプに合わせて休む",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k23l",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23m",
+									"text": "疲労回復の研究にたずさわってきた片野秀樹は、『休養学』で、休養を「休む」ことだけでなく、いくつかのタイプに分けて考えることを提案しています。横になって体を休めることだけでなく、軽い運動、気分転換、人との交流、楽しみ、創造的な活動なども、休養になりうるという考え方です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k23n",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23o",
+									"text": "デスクワークで頭は疲れているけれど、体はあまり動かしていない人は、寝ているより軽く体を動かしたほうがすっきりすることがあります。反対に、立ち仕事や肉体労働で体が疲れている人は、まず体を休めることが大切です。自分の疲れがどこから来ているのかを考えて、休み方を選びましょう。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k23p",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23q",
+									"text": "仕事から頭を離す工夫",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k23r",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23s",
+									"text": "在宅勤務やスマホの普及で、仕事とそれ以外の時間の境目があいまいになっています。頭を仕事から切り離すための工夫をいくつか紹介します。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k23t",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23u",
+									"text": "仕事の終わりの合図を決める",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k23v",
+									"text": ":パソコンを閉じる、着替える、散歩に出るなど",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k23w",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k23x",
+									"text": "仕事の通知を切る",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k23y",
+									"text": ":休日は仕事用のメールやチャットの通知をオフにする",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k23z",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k240",
+									"text": "明日やることを書き出してから終える",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k241",
+									"text": ":気になることを紙に出すと、頭が手放しやすくなる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k242",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k244",
+									"href": "/posts/deep-focus"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k243",
+									"text": "仕事の終わりに決まった手順をふむ方法は、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k245",
+									"text": "『集中力は「意志」より「環境」でつくる』",
+									"marks": [
+										"k244"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k246",
+									"text": "で紹介した「終わりの儀式」とも共通しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k247",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k248",
+									"text": "体を動かすことも休養になる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k249",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k24b",
+									"href": "/posts/move-for-mind"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24a",
+									"text": "疲れているときに運動するのは、逆効果に思えるかもしれません。でも、軽い運動は、気分を切り替え、夜の眠りをよくする助けになります。散歩、ストレッチ、ゆっくりした自転車など、息が上がらない程度の運動から始めてみてください。運動と気分の関係は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k24c",
+									"text": "『気分が落ちたら、まず10分歩いてみる』",
+									"marks": [
+										"k24b"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k24d",
+									"text": "で詳しく紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k24e",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24f",
+									"text": "スマホは休養になっているか",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k24g",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24h",
+									"text": "休憩時間や休日に、なんとなくSNSや動画を見て過ごしていないでしょうか。スマホを見ていると、休んでいるつもりでも、次々に入ってくる情報で頭は休まっていないことがあります。仕事の連絡が目に入れば、心理的な切り離しもできません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k24i",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k24k",
+									"href": "/posts/smartphone-time"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24j",
+									"text": "スマホを見る時間を少し減らして、外に出る、本を読む、人と話すといった時間に置きかえてみると、休み方の質が変わります。スマホとの付き合い方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k24l",
+									"text": "『スマホを見る時間を減らしたい人のための、無理のない5つの工夫』",
+									"marks": [
+										"k24k"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k24m",
+									"text": "で紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k24n",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24o",
+									"text": "睡眠は休養の土台",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k24p",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k24r",
+									"href": "/posts/sleep-foundation"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24q",
+									"text": "どんな休み方をしても、睡眠が足りていなければ疲れはとれません。休日に寝だめをするより、毎日の睡眠時間を確保することが大切です。睡眠の整え方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k24s",
+									"text": "『朝活の前に、まず睡眠を整える』",
+									"marks": [
+										"k24r"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k24t",
+									"text": "を参考にしてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k24u",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24v",
+									"text": "休みの日の過ごし方の例",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k24w",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24x",
+									"text": "具体的に、休日をどう過ごすと回復しやすいかの例を挙げてみます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k24y",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24z",
+									"text": "朝",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k250",
+									"text": ":平日と同じくらいの時間に起き、カーテンを開けて光を浴びる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k251",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k252",
+									"text": "午前",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k253",
+									"text": ":散歩や軽い運動で体を動かす",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k254",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k255",
+									"text": "昼",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k256",
+									"text": ":好きなものをゆっくり食べる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k257",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k258",
+									"text": "午後",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k259",
+									"text": ":趣味、読書、友人と会うなど、仕事と関係のない楽しみの時間",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k25a",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25b",
+									"text": "夜",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k25c",
+									"text": ":スマホを早めに置いて、ぬるめのお風呂に入り、いつもの時間に寝る",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k25d",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25e",
+									"text": "全部を完璧にこなす必要はありません。ポイントは、仕事から頭を離す時間、体を休める時間、自分が楽しいと思える時間を、それぞれ少しずつ入れることです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25f",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25g",
+									"text": "平日の夜にも小さな休みを",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25h",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25i",
+									"text": "休養は、週末だけのものではありません。平日の夜にも、短い時間で回復を図ることができます。帰宅したら仕事用のかばんを目につかない場所に置く、10分だけ好きな音楽を聞く、湯船につかる。毎日の小さな回復が、疲れをため込まないことにつながります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25j",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25k",
+									"text": "長い休みをうまく使う",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25l",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25m",
+									"text": "連休や夏休みなどの長い休みは、ふだんできない休み方を試すいい機会です。旅行に出かけて環境を変える、自然の中で過ごす、ずっとやってみたかったことに挑戦する。ゾンネンタークの研究でいう「熟達」の体験は、新しい場所や新しい活動の中で得やすいものです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25n",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25o",
+									"text": "ただし、予定を詰めこみすぎると、休み明けにかえって疲れてしまいます。休みの最終日は予定を入れずに、体と気持ちを整える日にしておくと、仕事に戻りやすくなります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25p",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25q",
+									"text": "休むことに罪悪感を持たない",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25r",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25s",
+									"text": "まじめな人ほど、休むことに罪悪感を持ちがちです。「みんながんばっているのに、自分だけ休んでいいのだろうか」。でも、休むことは怠けることではありません。長く走り続けるために、燃料を補給することです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25t",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25u",
+									"text": "休養も、予定に入れなければ後回しになります。週末の予定に、「仕事のことを考えない時間」と「好きなことをする時間」を先に書きこんでおきましょう。それでも疲れがとれない状態が続くときは、体の病気が隠れていることもあるので、医療機関に相談してください。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "今週末の予定に、「仕事のことを考えない時間」と「少し体を動かす時間」を1つずつ書きこむ。",
+					"books": "kyuyougaku,undou-nou,stanford-sleep"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"body"
+					],
+					"tag": [
+						"research",
+						"stress",
+						"smartphone"
+					]
+				}
+			},
+			{
+				"id": "post-factfulness",
+				"slug": "factfulness",
+				"status": "published",
+				"data": {
+					"title": "情報に振り回されない。ニュースや「〜すべき」を見きわめる考え方",
+					"excerpt": "SNSには「これをやれば成功する」という情報があふれています。思い込みにとらわれず、情報の確かさを見きわめるための考え方とチェックリスト。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k25v",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25w",
+									"text": "「朝5時に起きる人は成功する」「この食べものを食べれば痩せる」「この習慣で年収が上がる」。SNSやネットには、自己啓発や健康についての情報があふれています。どれが確かな情報で、どれがそうでないのかを見きわめるのは、簡単ではありません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25x",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k25y",
+									"text": "この記事では、情報に振り回されないための考え方を紹介します。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k25z",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k260",
+									"text": "私たちは世界を思い込みで見ている",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k261",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k262",
+									"text": "スウェーデンの医師で公衆衛生の研究者だったハンス・ロスリングは、著書『FACTFULNESS(ファクトフルネス)』で、多くの人が世界の現状を実際より悪く思い込んでいることを示しました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k263",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k264",
+									"text": "ロスリングは、世界の貧困や教育、健康などについての簡単な3択クイズを、世界中のさまざまな人に出しました。たとえば「世界の1歳児の中で、なんらかの予防接種を受けている子どもはどのくらいいるか」といった質問です。すると、専門家や高学歴の人も含めて、多くの人の正答率は、ランダムに答えた場合より低かったのです。多くの人が、世界は実際よりも悪い状態にあると思い込んでいました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k265",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k266",
+									"text": "ロスリングは、人がこうした思い込みをしてしまう原因として、10の「本能」を挙げています。その中から、身近な情報を見るときにも役立つものをいくつか紹介します。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k267",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k268",
+									"text": "気をつけたい思い込みのくせ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k269",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26a",
+									"text": "ネガティブ本能",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k26b",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26c",
+									"text": "人は、よいことより悪いことに注目しやすいくせがあります。ニュースも、事故や事件など悪い出来事を多く伝えます。悪いニュースばかり見ていると、世の中はどんどん悪くなっているように感じますが、実際には少しずつよくなっていることもあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k26d",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26e",
+									"text": "単純化本能",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k26f",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26g",
+									"text": "複雑な問題を、1つの原因や1つの解決策で説明したくなるくせです。「これさえやれば成功する」という情報に飛びつきたくなるのは、このくせのためです。実際には、成功や健康には多くの要因が関わっています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k26h",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26i",
+									"text": "パターン化本能",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k26j",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26k",
+									"text": "一部の例を見て、全体も同じだと思いこむくせです。「成功した人が朝型だった」という話をいくつか聞くと、「朝型にすれば成功する」と考えてしまいます。でも、夜型で成功した人も、朝型でうまくいかなかった人もたくさんいるはずです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k26l",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26m",
+									"text": "情報を見きわめるためのチェックリスト",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k26n",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26o",
+									"text": "気になる情報に出会ったら、次の点を確かめてみてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k26p",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26q",
+									"text": "出どころはどこか",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k26r",
+									"text": ":誰が言っているのか。元になった調査や研究があるのか",
+									"marks": []
+								}
+							],
+							"listItem": "number",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k26s",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26t",
+									"text": "どんな人を対象にした話か",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k26u",
+									"text": ":数人の体験談なのか、何千人を調べた研究なのか",
+									"marks": []
+								}
+							],
+							"listItem": "number",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k26v",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26w",
+									"text": "相関と因果を混同していないか",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k26x",
+									"text": ":「AとBが一緒に起きる」ことと、「AがBの原因である」ことは違う",
+									"marks": []
+								}
+							],
+							"listItem": "number",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k26y",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k26z",
+									"text": "反対の結果はないか",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k270",
+									"text": ":同じテーマで、違う結果が出ている研究はないか",
+									"marks": []
+								}
+							],
+							"listItem": "number",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k271",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k272",
+									"text": "誰が得をするか",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k273",
+									"text": ":その情報を広めることで、商品やサービスが売れる人はいないか",
+									"marks": []
+								}
+							],
+							"listItem": "number",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k274",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k275",
+									"text": "相関と因果の違い",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k276",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k277",
+									"text": "とくに大切なのが、3つめの相関と因果の違いです。たとえば、「朝食を食べる子どもは成績がよい」という調査結果があったとします。これは、朝食を食べることが成績を上げる原因だとは限りません。規則正しい生活をしている家庭の子どもは、朝食も食べるし、勉強の習慣もある、というように、別の要因が両方に関係している可能性があります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k278",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k279",
+									"text": "このブログでも、研究を紹介するときは、どんな人を対象に、どんな方法で調べたものなのかをできるだけ書くようにしています。「〜という研究がある」と聞いたら、その中身まで見てみる習慣をつけると、情報の確かさを判断しやすくなります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k27a",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k27b",
+									"text": "有名な話でも、確かめてみる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k27c",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k27e",
+									"href": "/posts/goal-setting"
+								},
+								{
+									"_type": "link",
+									"_key": "k27h",
+									"href": "/posts/tiny-start"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k27d",
+									"text": "自己啓発の世界には、根拠のはっきりしない話が、有名な研究のように語られていることがあります。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k27f",
+									"text": "『目標は「具体的に、少し難しく」。研究にもとづく目標の立て方』",
+									"marks": [
+										"k27e"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k27g",
+									"text": "で紹介した「目標を書いた3%の卒業生」の話は、その一例です。また、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k27i",
+									"text": "『習慣は「小さすぎる一歩」から始める』",
+									"marks": [
+										"k27h"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k27j",
+									"text": "で書いたように、「21日で習慣になる」という話も、研究で確かめられた数字ではありません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k27k",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k27l",
+									"text": "よく聞く話ほど、本当かどうかを確かめる価値があります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k27m",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k27n",
+									"text": "直感と、ゆっくり考えることを使い分ける",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k27o",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k27q",
+									"href": "/posts/two-systems"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k27p",
+									"text": "ダニエル・カーネマンが『ファスト&スロー』で説明しているように、私たちの直感は、わかりやすい話や、何度も聞いた話を正しいと感じやすいくせがあります。大事な判断をするときは、すぐに信じず、一度立ち止まって確かめる。判断のくせについては",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k27r",
+									"text": "『疲れているときに大事なことを決めない。判断のくせを知る』",
+									"marks": [
+										"k27q"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k27s",
+									"text": "で詳しく紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k27t",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k27u",
+									"text": "データのグラフにも注意する",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k27v",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k27w",
+									"text": "数字やグラフは、一見すると客観的で確かな情報に見えます。でも、見せ方によって印象は大きく変わります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k27x",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k27y",
+									"text": "グラフの縦軸が0から始まっていないと、小さな差が大きく見える",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k27z",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k280",
+									"text": "「2倍に増えた」と言っても、1人が2人になっただけかもしれない",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k281",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k282",
+									"text": "都合のいい期間だけを切り取ると、増えているようにも減っているようにも見せられる",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k283",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k284",
+									"text": "ロスリングも『FACTFULNESS』で、大きな数字を見たら、それだけで判断せず、何かと比べたり、割合で考えたりすることをすすめています。数字に出会ったら、「何と比べて大きいのか」「全体のうちのどのくらいなのか」を考えてみてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k285",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k286",
+									"text": "自分の考えと違う情報にもふれる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k287",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k288",
+									"text": "人は、自分の考えに合う情報ばかり集めてしまうくせがあります(確証バイアス)。SNSでは、自分が好む情報が表示されやすい仕組みになっていることも多く、気づかないうちに、似たような意見ばかりにふれていることがあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k289",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28a",
+									"text": "ときには、自分とは違う立場の意見や、反対の結論を出している情報にも目を通してみてください。すぐに考えを変える必要はありませんが、別の見方を知ることで、より落ち着いて判断できるようになります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28b",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28c",
+									"text": "情報との距離のとり方",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28d",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28e",
+									"text": "すべての情報を自分で確かめるのは無理です。だからこそ、信頼できる情報源をいくつか持っておくことが大切です。公的機関の発表、専門家が書いた本、出典が明記されている記事などです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28f",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k28h",
+									"href": "/posts/smartphone-time"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28g",
+									"text": "また、悪いニュースばかり見ていると、気持ちが落ちこみます。ニュースを見る時間を決める、SNSを見る時間を減らすなど、情報との距離をとることも、心の健康を守るために大切です。スマホとの付き合い方は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k28i",
+									"text": "『スマホを見る時間を減らしたい人のための、無理のない5つの工夫』",
+									"marks": [
+										"k28h"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k28j",
+									"text": "で紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28k",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28l",
+									"text": "世界は、思っているほど悪くないかもしれません。思い込みに気づき、確かめる習慣を持つことで、情報に振り回されずに、自分で考えて選べるようになります。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "最近気になった「〇〇すると〜になる」という情報を1つ選び、元になった調査や研究があるかを調べてみる。",
+					"books": "factfulness,fast-slow"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"learning"
+					],
+					"tag": [
+						"research",
+						"classic",
+						"smartphone"
+					]
+				}
+			}
+		],
+		"pages": [
+			{
+				"id": "page-about",
+				"slug": "about",
+				"status": "published",
+				"data": {
+					"title": "このサイトについて",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k28m",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28n",
+									"text": "「あしたの習慣」は、自己啓発に特化したブログです。習慣づくり、考え方、時間の使い方、学び方、人間関係、睡眠や運動まで、昨日より少し楽に、少し前向きに過ごすためのヒントを紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28o",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28p",
+									"text": "大切にしていること",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28q",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28r",
+									"text": "根拠のあることを書く。",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k28s",
+									"text": "心理学などの研究や、長く読み継がれている名著をもとに書いています。研究の結果が分かれていることや、効果が小さいとわかってきたことは、そのまま書きます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28t",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28u",
+									"text": "すぐに試せる形にする。",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k28v",
+									"text": "どの記事も、最後に「今日の一歩」をつけています。読んで終わりではなく、1つだけ試してみることを大切にしています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28w",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28x",
 									"text": "できないことを約束しない。",
 									"marks": [
 										"strong"
@@ -15228,7 +22041,7 @@
 								},
 								{
 									"_type": "span",
-									"_key": "k1jj",
+									"_key": "k28y",
 									"text": "「これで人生が変わる」「必ず成功する」といった言い方はしません。変わるのは、小さな行動を積み重ねたときです。",
 									"marks": []
 								}
@@ -15236,13 +22049,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k1jk",
+							"_key": "k28z",
 							"style": "h2",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k1jl",
+									"_key": "k290",
 									"text": "ご注意",
 									"marks": []
 								}
@@ -15250,13 +22063,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k1jm",
+							"_key": "k291",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k1jn",
+									"_key": "k292",
 									"text": "当サイトの内容は一般的な情報の提供を目的としたもので、医療や心理療法の代わりになるものではありません。強い落ち込みや不安、眠れない日が続くなどの不調があるときは、医療機関や専門の相談窓口に相談してください。",
 									"marks": []
 								}
@@ -15264,13 +22077,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k1jo",
+							"_key": "k293",
 							"style": "h2",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k1jp",
+									"_key": "k294",
 									"text": "紹介している本について",
 									"marks": []
 								}
@@ -15278,13 +22091,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k1jq",
+							"_key": "k295",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k1jr",
+									"_key": "k296",
 									"text": "記事で紹介している本には、Amazonへのリンクをつけています。当サイトはAmazonアソシエイト・プログラムに参加しており、リンクから商品が購入されると紹介料を受け取ることがあります。紹介する本は、記事の内容に関係のあるものだけを選んでいます。",
 									"marks": []
 								}
