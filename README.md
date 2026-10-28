@@ -40,4 +40,4 @@ AdSense(ca-pub-8398161859137802)のスクリプトは Base.astro。サイト専�
 
 ## デプロイ
 
-`npm run deploy`(astro build && wrangler deploy)。EMDASH_ENCRYPTION_KEY は wrangler secret に登録済み(ローカルは .env)。
+GitHub(henry12-masa/ashita_napoblog)の main に push すると Cloudflare Workers Builds が自動でビルド・デプロイする(プレビュービルドは無効)。手動なら `npm run deploy`(astro build && wrangler deploy)。EMDASH_ENCRYPTION_KEY は wrangler secret に登録済み(ローカルは .env)。
