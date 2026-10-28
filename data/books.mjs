@@ -171,6 +171,11 @@ export const BOOKS = {
 		author: "片野秀樹",
 		blurb: "疲れをとるための休養を、ただ休むだけでなく、いくつかのタイプに分けて考える本です。",
 	},
+	"nature-fix": {
+		title: "NATURE FIX 自然が最高の脳をつくる",
+		author: "フローレンス・ウィリアムズ",
+		blurb: "米国のジャーナリストが、自然の中で過ごすことと気分・健康・創造性の関係について、各国の研究者を訪ねて取材した本です。",
+	},
 };
 
 export function bookQuery(book) {

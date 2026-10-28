@@ -15132,6 +15132,582 @@
 				}
 			},
 			{
+				"id": "post-time-in-nature",
+				"slug": "time-in-nature",
+				"status": "published",
+				"data": {
+					"title": "週に2時間、緑の中で過ごす。自然とこころの研究から",
+					"excerpt": "公園の木々や川沿いの道で過ごす時間は、気分や疲れとどう関わるのか。研究でわかっていることと、まだわからないこと、忙しい人の取り入れ方をまとめました。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k28m",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28n",
+									"text": "平日は家と職場の往復で、気がつけば一日じゅう建物の中にいた。週末も疲れて家で過ごし、なんとなく頭が重いまま月曜を迎える。そんな毎日が続いていないでしょうか。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28o",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28p",
+									"text": "木や草、水辺のある場所で過ごす時間と、こころや体の状態との関係は、ここ数十年でさまざまな研究が行われてきました。この記事では、その中からいくつかを紹介し、忙しい人でも取り入れやすい工夫を考えます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28q",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28r",
+									"text": "「週120分」という目安",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28s",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28t",
+									"text": "2019年、英国エクセター大学のマシュー・ホワイトらは、イングランドの約2万人の調査データを分析した結果を、学術誌『Scientific Reports』に発表しました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28u",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28v",
+									"text": "この研究では、直近1週間に自然の中で過ごした時間が合計120分以上だった人は、まったく過ごさなかった人に比べて、自分の健康状態や幸福感を「良い」と答える割合が高いという結果でした。120分に届かない場合は、はっきりした違いは見られませんでした。また、200〜300分ほどで差は頭打ちになり、それ以上長く過ごしても違いは大きくなりませんでした。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28w",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28x",
+									"text": "おもしろいのは、1回で2時間過ごしても、短い時間を何回かに分けても、結果はほとんど変わらなかったことです。年齢や性別、収入、持病のある人など、さまざまなグループで同じような傾向が見られたと報告されています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k28y",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k28z",
+									"text": "この研究から言えること、言えないこと",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k290",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k291",
+									"text": "ただし、この研究は「自然の中で過ごしたから健康になった」と証明したものではありません。もともと元気な人ほど外に出かけやすい、という逆の可能性も考えられます。また、過ごした時間は本人の記憶にもとづく回答です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k292",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k293",
+									"text": "著者たち自身も、120分をはっきりした基準として扱うことには慎重で、今後さらに研究が必要だと述べています。数字は「このくらいを目安にしてみる」という手がかりとして受け取るのがよいでしょう。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k294",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k295",
+									"text": "歩く場所で、考えごとの量が変わる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k296",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k297",
+									"text": "もう一つ、米国スタンフォード大学のグレゴリー・ブラットマンらが2015年に米国科学アカデミー紀要(PNAS)に発表した研究があります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k298",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k299",
+									"text": "38人の参加者を2つのグループに分け、一方は草地と木々のある緑地を、もう一方は交通量の多い大通り沿いを、それぞれ90分歩いてもらいました。すると、緑地を歩いたグループでは、同じ悩みを何度も考え続ける「反すう」が減り、反すうとの関わりが指摘されている脳の部位の活動も下がっていました。大通りを歩いたグループでは、そうした変化は見られませんでした。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29a",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k29c",
+									"href": "/posts/mindfulness-basics"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29b",
+									"text": "参加者の数が少ない研究なので、これだけで結論は出せません。それでも、同じ「90分歩く」でも、どこを歩くかで頭の中の状態が違ってくるかもしれない、という結果は興味深いものです。くよくよと考えすぎてしまう悩みについては",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k29d",
+									"text": "『1日3分から始めるマインドフルネス。考えすぎる頭を休める方法』",
+									"marks": [
+										"k29c"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k29e",
+									"text": "でも書きました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29f",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29g",
+									"text": "窓から木が見えるだけでも",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29h",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29i",
+									"text": "自然の中に出かけなくても、目に入る景色が関係する可能性を示した研究もあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29j",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29k",
+									"text": "建築や環境心理学の研究者ロジャー・ウルリッヒは、1984年に学術誌『Science』に、米国ペンシルベニア州の病院の記録を調べた研究を発表しました。胆のうの手術を受けた患者のうち、病室の窓から木々が見える人は、レンガの壁しか見えない人に比べて、入院期間がやや短く、強い痛み止めの使用も少なかったという結果です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29l",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29m",
+									"text": "これも記録をもとにした比較で、条件をそろえた実験ではありません。ただ、目に入る景色が人の状態と関わっているかもしれない、という見方を広めた研究として、今もよく引用されています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29n",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29o",
+									"text": "なぜ自然の中で頭が休まるのか",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29p",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29q",
+									"text": "理由の説明の一つに、ミシガン大学の心理学者レイチェル・カプランとスティーヴン・カプランが1989年の著書で示した「注意回復理論」があります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29r",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29s",
+									"text": "仕事や勉強で、ほかのことを押しのけて一つのことに注意を向け続けると、その力はだんだん消耗していきます。一方、風に揺れる葉や流れる雲、水面の光のように、自然の中には無理なく目を引くものが多くあります。カプランらはこれを「ソフト・ファシネーション(穏やかな魅了)」と呼び、こうしたものに囲まれていると、すり減った注意の力が回復しやすいと考えました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29t",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k29v",
+									"href": "/posts/smartphone-time"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29u",
+									"text": "スマホの画面のように強く注意を奪うものとは、性質が違うわけです。休憩中についスマホを見てしまう人は、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k29w",
+									"text": "『スマホを見る時間を減らしたい人のための、無理のない5つの工夫』",
+									"marks": [
+										"k29v"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k29x",
+									"text": "もあわせて読んでみてください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k29y",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k29z",
+									"text": "なお、日本では1982年に林野庁が「森林浴」という言葉を提唱し、その後、森林で過ごすことの効果を確かめる研究も進められてきました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2a0",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2a1",
+									"text": "忙しい人の取り入れ方",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2a2",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2a3",
+									"text": "週120分と聞くと多く感じるかもしれませんが、1日あたりにすると20分ほどです。分けてもよいという結果を生かして、生活の中に少しずつ置いてみましょう。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2a4",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2a5",
+									"text": "通勤の道を変える",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2a6",
+									"text": ":一駅手前で降りて、公園や川沿い、並木道を通って歩く",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k2a7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2a8",
+									"text": "昼休みに外へ出る",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2a9",
+									"text": ":近くの緑のある場所で、10〜15分過ごす",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k2aa",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2ab",
+									"text": "週末に1回、少し長めに",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2ac",
+									"text": ":大きな公園や水辺に出かけて、1時間ほど歩く",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k2ad",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2ae",
+									"text": "見える景色を変える",
+									"marks": [
+										"strong"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2af",
+									"text": ":机を窓の近くに置く、観葉植物を1つ置く",
+									"marks": []
+								}
+							],
+							"listItem": "bullet",
+							"level": 1
+						},
+						{
+							"_type": "block",
+							"_key": "k2ag",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k2ai",
+									"href": "/posts/move-for-mind"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2ah",
+									"text": "歩けば運動にもなります。体を動かすことと気分の関係は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k2aj",
+									"text": "『気分が落ちたら、まず10分歩いてみる』",
+									"marks": [
+										"k2ai"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2ak",
+									"text": "で紹介しました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2al",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2am",
+									"text": "無理のない範囲で",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2an",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2ao",
+									"text": "自然の中で過ごす時間は、気分を整える手段の一つですが、それだけで心身の不調が治るわけではありません。この記事は医療や専門家への相談の代わりになるものではありません。落ち込みや不眠、強い疲れが続くときは、医療機関に相談してください。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2ap",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2aq",
+									"text": "また、暑い日や寒い日、足元の悪い場所では、体調や安全を優先してください。遠くの山や森に行かなくても、近所の公園の木陰で十分です。今週のどこかで、少しだけ緑の中を歩く時間をつくってみてください。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"action": "今週のどこかに、近くの公園や川沿いを20分歩く予定を1つ書き込む。",
+					"books": "nature-fix,undou-nou"
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"body"
+					],
+					"tag": [
+						"research",
+						"stress",
+						"small-step"
+					]
+				}
+			},
+			{
 				"id": "post-procrastination",
 				"slug": "procrastination",
 				"status": "published",
@@ -21955,13 +22531,13 @@
 					"content": [
 						{
 							"_type": "block",
-							"_key": "k28m",
+							"_key": "k2ar",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k28n",
+									"_key": "k2as",
 									"text": "「あしたの習慣」は、自己啓発に特化したブログです。習慣づくり、考え方、時間の使い方、学び方、人間関係、睡眠や運動まで、昨日より少し楽に、少し前向きに過ごすためのヒントを紹介しています。",
 									"marks": []
 								}
@@ -21969,13 +22545,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k28o",
+							"_key": "k2at",
 							"style": "h2",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k28p",
+									"_key": "k2au",
 									"text": "大切にしていること",
 									"marks": []
 								}
@@ -21983,13 +22559,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k28q",
+							"_key": "k2av",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k28r",
+									"_key": "k2aw",
 									"text": "根拠のあることを書く。",
 									"marks": [
 										"strong"
@@ -21997,7 +22573,7 @@
 								},
 								{
 									"_type": "span",
-									"_key": "k28s",
+									"_key": "k2ax",
 									"text": "心理学などの研究や、長く読み継がれている名著をもとに書いています。研究の結果が分かれていることや、効果が小さいとわかってきたことは、そのまま書きます。",
 									"marks": []
 								}
@@ -22005,13 +22581,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k28t",
+							"_key": "k2ay",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k28u",
+									"_key": "k2az",
 									"text": "すぐに試せる形にする。",
 									"marks": [
 										"strong"
@@ -22019,7 +22595,7 @@
 								},
 								{
 									"_type": "span",
-									"_key": "k28v",
+									"_key": "k2b0",
 									"text": "どの記事も、最後に「今日の一歩」をつけています。読んで終わりではなく、1つだけ試してみることを大切にしています。",
 									"marks": []
 								}
@@ -22027,13 +22603,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k28w",
+							"_key": "k2b1",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k28x",
+									"_key": "k2b2",
 									"text": "できないことを約束しない。",
 									"marks": [
 										"strong"
@@ -22041,7 +22617,7 @@
 								},
 								{
 									"_type": "span",
-									"_key": "k28y",
+									"_key": "k2b3",
 									"text": "「これで人生が変わる」「必ず成功する」といった言い方はしません。変わるのは、小さな行動を積み重ねたときです。",
 									"marks": []
 								}
@@ -22049,13 +22625,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k28z",
+							"_key": "k2b4",
 							"style": "h2",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k290",
+									"_key": "k2b5",
 									"text": "ご注意",
 									"marks": []
 								}
@@ -22063,13 +22639,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k291",
+							"_key": "k2b6",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k292",
+									"_key": "k2b7",
 									"text": "当サイトの内容は一般的な情報の提供を目的としたもので、医療や心理療法の代わりになるものではありません。強い落ち込みや不安、眠れない日が続くなどの不調があるときは、医療機関や専門の相談窓口に相談してください。",
 									"marks": []
 								}
@@ -22077,13 +22653,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k293",
+							"_key": "k2b8",
 							"style": "h2",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k294",
+									"_key": "k2b9",
 									"text": "紹介している本について",
 									"marks": []
 								}
@@ -22091,13 +22667,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k295",
+							"_key": "k2ba",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k296",
+									"_key": "k2bb",
 									"text": "記事で紹介している本には、Amazonへのリンクをつけています。当サイトはAmazonアソシエイト・プログラムに参加しており、リンクから商品が購入されると紹介料を受け取ることがあります。紹介する本は、記事の内容に関係のあるものだけを選んでいます。",
 									"marks": []
 								}
